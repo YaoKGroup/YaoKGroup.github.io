@@ -1,4 +1,4 @@
----
+<img width="1274" height="1068" alt="image" src="https://github.com/user-attachments/assets/cdfd6740-8a0e-4a5d-9faf-1c37b3251bca" />---
 layout: page
 title: Contact
 subtitle: "Get in touch with us"
@@ -34,7 +34,7 @@ permalink: /contact/
     </style>
     <div class="map-container" style="width: 100%; height: 100%;">
       
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m13!1d3690.413204961555!2d114.2632238759325!3d22.33804864152765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3404046cd459d2a3%3A0x6a21800f7e47a972!2z6aaZ5riv56eR5oqA5aSn5a24!5e0!3m2!1szh-CN!2shk!4v1711200000000!5m2!1szh-CN!2shk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe src="https://navigate.ust.hk/path/app/location/id?remote_id=UST4339"></iframe>
 
     </div>
   </div>
