@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Members"
-subtitle: "blood of the dragon"
+subtitle: "Our team"
 permalink: /members/
 ---
 
@@ -21,7 +21,7 @@ permalink: /members/
         <li>
           <strong>Assistant Professor</strong> <span class="pi-date">(Apr. 2026 - )</span><br>
           Division of Integrative Systems and Design<br>
-          The Hong Kong University of Science and Technology, Hong Kong
+          The Hong Kong University of Science and Technology, <br>Hong Kong
         </li>
         
         <li>
