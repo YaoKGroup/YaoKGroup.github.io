@@ -25,7 +25,7 @@ permalink: /contact/
 
   <div style="flex: 1; min-width: 300px; height: 350px;">
     <iframe 
-      src="https://maps.app.goo.gl/JXCZfdpBaKNmarJE6" 
+      src="<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1845.2386723069715!2d114.26124594442747!3d22.335597999999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3404046b2f4f548f%3A0x7c373e3673af1e0b!2sHong%20Kong%20University%20of%20Science%20and%20Technology%20the%20Hong%20Kong%20Jockey%20Club%20Biotechnology%20Research%20Institute!5e0!3m2!1sen!2sus!4v1776093442595!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>" 
       width="100%" 
       height="100%" 
       style="border:0; border-radius: 8px;" 
