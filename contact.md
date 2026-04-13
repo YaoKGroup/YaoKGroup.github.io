@@ -25,7 +25,7 @@ permalink: /contact/
 
   <div style="flex: 1; min-width: 300px; height: 350px;">
     <iframe 
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m13!1d3690.415494488346!2d114.26127167603706!3d22.337946941539263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340404169542a781%3A0xe54955b9a89c922a!2sThe%20Hong%20Kong%20University%20of%20Science%20and%20Technology!5e0!3m2!1sen!2shk!4v1715000000000!5m2!1sen!2shk" 
+      src="https://maps.app.goo.gl/JXCZfdpBaKNmarJE6" 
       width="100%" 
       height="100%" 
       style="border:0; border-radius: 8px;" 
