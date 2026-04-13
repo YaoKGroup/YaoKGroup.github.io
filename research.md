@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Research"
-subtitle: "research subtitle"
+subtitle: "Research directions"
 permalink: /research/
 ---
 
