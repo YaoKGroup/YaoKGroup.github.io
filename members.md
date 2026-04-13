@@ -37,13 +37,13 @@ permalink: /members/
         </li>
 
         <li>
-          <strong>Ph.D.</strong> <span class="pi-date">(Sept. 2019 - Jan. 2023)</span><br>
+          <strong>Doctor of Philosophy</strong> <span class="pi-date">(Sept. 2019 - Jan. 2023)</span><br>
           Department of Biomedical Engineering<br>
           City University of Hong Kong, Hong Kong
         </li>
 
         <li>
-          <strong>B. Eng.</strong> <span class="pi-date">(Sept. 2015 - Jun. 2019)</span><br>
+          <strong>Bachelor of Engineering</strong> <span class="pi-date">(Sept. 2015 - Jun. 2019)</span><br>
           College of Energy Engineering<br>
           Zhejiang University, Hangzhou, China
         </li>
@@ -60,19 +60,11 @@ permalink: /members/
   <div class="member-card">
     <img class="member-photo" src="{{ '/assets/img/placeholder-member.jpg' | relative_url }}" alt="Postdoc 1">
     <div class="member-info">
-      <div class="member-name">Visenya Targaryen</div>
-      <div class="member-line">Postdoctoral Fellow</div>
+      <div class="member-name">Name</div>
+      <div class="member-line"> </div>
     </div>
   </div>
 
-  <div class="member-card">
-    <img class="member-photo" src="{{ '/assets/img/placeholder-member.jpg' | relative_url }}" alt="Postdoc 2">
-    <div class="member-info">
-      <div class="member-name">Rhaenys Targaryen</div>
-      <div class="member-line">Postdoctoral Fellow</div>
-    </div>
-  </div>
-</div>
 
 ---
 
@@ -83,21 +75,13 @@ permalink: /members/
     <img class="member-photo" src="{{ '/assets/img/placeholder-member.jpg' | relative_url }}" alt="PhD 1">
     <div class="member-info">
       <div class="member-name">Daemon Targaryen</div>
-      <div class="member-line">PhD Student</div>
+      <div class="member-line"> </div>
     </div>
   </div>
-
-  <div class="member-card">
-    <img class="member-photo" src="{{ '/assets/img/placeholder-member.jpg' | relative_url }}" alt="PhD 2">
-    <div class="member-info">
-      <div class="member-name">Visrys Targaryen</div>
-      <div class="member-line">PhD Student</div>
-    </div>
-  </div>
-</div>
 
 ---
 
+{% comment %}
 ## Master’s Students &amp; Undergraduate Students
 
 <div class="member-grid">
@@ -117,6 +101,7 @@ permalink: /members/
     </div>
   </div>
 </div>
+{% endcomment %}
 
 ---
 
