@@ -3,8 +3,8 @@ short-title: "YAO"
 description: "Default subtitle"
 author: "Aeksio"
 
-baseurl: "/website"
-url: "https://arthys86.github.io"
+baseurl: ""
+url: "https://yaokgroup.github.io"
 
 site-css:
   - "/assets/css/custom-styles.css"
