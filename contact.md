@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contact
-subtitle: "get in touch with us"
+subtitle: "Get in touch with us"
 permalink: /contact/
 ---
 
@@ -24,15 +24,19 @@ permalink: /contact/
   </div>
 
   <div style="flex: 1.5; min-width: 300px; height: 300px;">
-    <iframe 
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m12!1m3!1d3690.411698263515!2d114.2632598!3d22.3380486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340404169726207f%3A0x6b80155601a18c0!2sThe%20Hong%20Kong%20University%20of%20Science%20and%20Technology%20(HKUST)!5e0!3m2!1sen!2shk!4v1715800000000!5m2!1sen!2shk"
-      width="100%" 
-      height="100%" 
-      style="border:0; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);" 
-      allowfullscreen="" 
-      loading="lazy" 
-      referrerpolicy="no-referrer-when-downgrade">
-    </iframe>
+    <style>
+      .map-container iframe {
+        width: 100% !important;
+        height: 100% !important;
+        border-radius: 12px !important;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1) !important;
+      }
+    </style>
+    <div class="map-container" style="width: 100%; height: 100%;">
+      
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m13!1d3690.413204961555!2d114.2632238759325!3d22.33804864152765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3404046cd459d2a3%3A0x6a21800f7e47a972!2z6aaZ5riv56eR5oqA5aSn5a24!5e0!3m2!1szh-CN!2shk!4v1711200000000!5m2!1szh-CN!2shk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
   </div>
 
 </div>
