@@ -60,19 +60,19 @@ permalink: /members/
   <div class="member-card">
     <img class="member-photo" src="{{ '/assets/img/placeholder-member.jpg' | relative_url }}" alt="Postdoc 1">
     <div class="member-info">
-      <div class="member-name">Name</div>
-      <div class="member-line"> </div>
+      <div class="member-name">Visenya Targaryen</div>
+      <div class="member-line">Postdoctoral Fellow</div>
     </div>
   </div>
 
   <div class="member-card">
     <img class="member-photo" src="{{ '/assets/img/placeholder-member.jpg' | relative_url }}" alt="Postdoc 2">
     <div class="member-info">
-      <div class="member-name">Name</div>
-      <div class="member-line"> </div>
+      <div class="member-name">Rhaenys Targaryen</div>
+      <div class="member-line">Postdoctoral Fellow</div>
     </div>
   </div>
-
+</div>
 
 ---
 
@@ -83,17 +83,18 @@ permalink: /members/
     <img class="member-photo" src="{{ '/assets/img/placeholder-member.jpg' | relative_url }}" alt="PhD 1">
     <div class="member-info">
       <div class="member-name">Daemon Targaryen</div>
-      <div class="member-line"> </div>
+      <div class="member-line">PhD Student</div>
     </div>
   </div>
 
   <div class="member-card">
     <img class="member-photo" src="{{ '/assets/img/placeholder-member.jpg' | relative_url }}" alt="PhD 2">
     <div class="member-info">
-      <div class="member-name">Name</div>
-      <div class="member-line"> </div>
+      <div class="member-name">Visrys Targaryen</div>
+      <div class="member-line">PhD Student</div>
     </div>
   </div>
+</div>
 
 ---
 
