@@ -1,7 +1,7 @@
-<img width="1274" height="1068" alt="image" src="https://github.com/user-attachments/assets/cdfd6740-8a0e-4a5d-9faf-1c37b3251bca" />---
+---
 layout: page
 title: Contact
-subtitle: "Get in touch with us"
+subtitle: "get in touch with us"
 permalink: /contact/
 ---
 
