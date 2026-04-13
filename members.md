@@ -65,7 +65,6 @@ permalink: /members/
     </div>
   </div>
 
-  <div class="member-grid">
   <div class="member-card">
     <img class="member-photo" src="{{ '/assets/img/placeholder-member.jpg' | relative_url }}" alt="Postdoc 2">
     <div class="member-info">
@@ -88,7 +87,6 @@ permalink: /members/
     </div>
   </div>
 
-  <div class="member-grid">
   <div class="member-card">
     <img class="member-photo" src="{{ '/assets/img/placeholder-member.jpg' | relative_url }}" alt="PhD 2">
     <div class="member-info">
