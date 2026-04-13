@@ -60,16 +60,16 @@ permalink: /members/
   <div class="member-card">
     <img class="member-photo" src="{{ '/assets/img/placeholder-member.jpg' | relative_url }}" alt="Postdoc 1">
     <div class="member-info">
-      <div class="member-name">Visenya Targaryen</div>
-      <div class="member-line">Postdoctoral Fellow</div>
+      <div class="member-name">Name</div>
+      <div class="member-line"> </div>
     </div>
   </div>
 
   <div class="member-card">
     <img class="member-photo" src="{{ '/assets/img/placeholder-member.jpg' | relative_url }}" alt="Postdoc 2">
     <div class="member-info">
-      <div class="member-name">Rhaenys Targaryen</div>
-      <div class="member-line">Postdoctoral Fellow</div>
+      <div class="member-name">Name</div>
+      <div class="member-line"> </div>
     </div>
   </div>
 </div>
@@ -82,47 +82,17 @@ permalink: /members/
   <div class="member-card">
     <img class="member-photo" src="{{ '/assets/img/placeholder-member.jpg' | relative_url }}" alt="PhD 1">
     <div class="member-info">
-      <div class="member-name">Daemon Targaryen</div>
-      <div class="member-line">PhD Student</div>
+      <div class="member-name">LAN</div>
+      <div class="member-line"> </div>
     </div>
   </div>
 
   <div class="member-card">
     <img class="member-photo" src="{{ '/assets/img/placeholder-member.jpg' | relative_url }}" alt="PhD 2">
     <div class="member-info">
-      <div class="member-name">Visrys Targaryen</div>
-      <div class="member-line">PhD Student</div>
+      <div class="member-name">Name</div>
+      <div class="member-line"> </div>
     </div>
   </div>
 </div>
 
----
-
-## Master’s Students &amp; Undergraduate Students
-
-<div class="member-grid">
-  <div class="member-card">
-    <img class="member-photo" src="{{ '/assets/img/placeholder-member.jpg' | relative_url }}" alt="Student 1">
-    <div class="member-info">
-      <div class="member-name">Aegon Targaryen</div>
-      <div class="member-line">MSc Student</div>
-    </div>
-  </div>
-
-  <div class="member-card">
-    <img class="member-photo" src="{{ '/assets/img/placeholder-member.jpg' | relative_url }}" alt="Student 2">
-    <div class="member-info">
-      <div class="member-name">Baela Targaryen</div>
-      <div class="member-line">UG Student</div>
-    </div>
-  </div>
-</div>
-
----
-
-## Alumni
-
-<ul class="alumni-list">
-  <li>Rhaenyra Targaryen — Dragonstone, 2025</li>
-  <li>Laena Velaryon — Driftmark, 2025</li>
-</ul>
