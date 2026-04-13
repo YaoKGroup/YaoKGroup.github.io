@@ -81,7 +81,6 @@ permalink: /members/
 
 ---
 
-{% comment %}
 ## Master’s Students &amp; Undergraduate Students
 
 <div class="member-grid">
@@ -101,7 +100,6 @@ permalink: /members/
     </div>
   </div>
 </div>
-{% endcomment %}
 
 ---
 
