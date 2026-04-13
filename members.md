@@ -14,16 +14,18 @@ permalink: /members/
 
       <img class="pi-photo" src="{{ '/assets/img/yao.jpg' | relative_url }}" alt="PI photo">
 
-      <p class="pi-email">
-        <strong>Email:</strong>
-        <a href="mailto:yao@hkust.edu.hk">yao@hkust.edu.hk</a>
-      </p>
     </div>
 
     <div class="pi-content">
       <ul class="pi-cv">
         <li>
-          <strong>Postdoctoral Fellow</strong> <span class="pi-date">(Apr. 2024 - )</span><br>
+          <strong>Assistant Professor</strong> <span class="pi-date">(Apr. 2026 - )</span><br>
+          Division of Integrative Systems and Design<br>
+          The Hong Kong University of Science and Technology, Hong Kong
+        </li>
+        
+        <li>
+          <strong>Postdoctoral Fellow</strong> <span class="pi-date">(Apr. 2024 - Mar. 2026)</span><br>
           Department of Electrical &amp; Computer Engineering<br>
           University of California, Los Angeles (UCLA), CA, U.S.
         </li>
