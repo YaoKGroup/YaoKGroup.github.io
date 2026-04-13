@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Members"
-subtitle: "Our team"
+subtitle: "our team"
 permalink: /members/
 ---
 
