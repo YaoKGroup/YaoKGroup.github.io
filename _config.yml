@@ -1,0 +1,24 @@
+title: "YAO Research Group"
+short-title: "YAO"
+description: "Default subtitle"
+author: "Aeksio"
+
+baseurl: "/website"
+url: "https://arthys86.github.io"
+
+site-css:
+  - "/assets/css/custom-styles.css"
+
+navbar-links:
+  Home: ""
+  Research: "research"
+  Members: "members"
+  Publications: "publications"
+  Gallery: "gallery"
+  Contact: "contact"
+
+# footer links
+social-network-links:
+  email: "12332386@mail.sustech.edu.cn"
+  github: "Arthys86"
+  google-scholar: "https://scholar.google.com/citations?user=dthwMXwAAAAJ&hl=en&oi=ao"

@@ -1,0 +1,34 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>
+    {%- if page.url == "/" -%}
+      {{ site.title }}
+    {%- elsif page.title -%}
+      {{ site.short-title }} - {{ page.title }}
+    {%- else -%}
+      {{ site.short-title }}
+    {%- endif -%}
+  </title>
+
+  {% if site.author %}
+  <meta name="author" content="{{ site.author }}">
+  {% endif %}
+  {% if site.description %}
+  <meta name="description" content="{{ site.description }}">
+  {% endif %}
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Cinzel:wght@400;700&family=Marcellus&family=Cutive+Mono&family=Spectral:wght@300;400;700;800&family=Source+Serif+4:wght@300;400&display=swap" rel="stylesheet">
+
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+  <link rel="stylesheet" href="{{ '/assets/css/bootstrap-social.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/lab-base.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/custom-styles.css' | relative_url }}">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+</head>

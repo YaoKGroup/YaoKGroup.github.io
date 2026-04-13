@@ -1,0 +1,16 @@
+---
+layout: base
+---
+
+{% include nav.html %}
+{% include header.html %}
+
+<main class="{% if page.full-width %}container-fluid{% else %}container-lg{% endif %}" role="main">
+  <div class="row">
+    <div class="{% if page.full-width %}col-12{% else %}col-xl-10 offset-xl-1 col-lg-10 offset-lg-1{% endif %}">
+      {{ content }}
+    </div>
+  </div>
+</main>
+
+{% include footer.html %}

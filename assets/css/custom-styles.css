@@ -1,0 +1,556 @@
+:root{
+  /* Color Palette */
+  --ust-blue: #003367;
+  --blue-light: #E1F5FE;
+  --blue-mid: #2F6FA8;
+  --gold: #996600;
+  --gold-accent: #BE9006;
+  --gold-hover: #D4A017;
+  --text-main: #1b1f24;
+}
+
+/* Base typography */
+body{
+  font-family: "Source Serif 4", Georgia, "Times New Roman", Times, serif;
+  font-weight: 400;
+  color: var(--text-main);
+}
+
+/* Links */
+a{ color: var(--ust-blue); }
+a:hover,a:focus{ color: var(--gold); }
+
+/* ================================
+   Header typography (TITLE)
+   ================================ */
+.intro-header .site-heading h1,
+.intro-header .page-heading h1,
+.intro-header .post-heading h1{
+  color: var(--ust-blue) !important;
+  font-family: 'Marcellus', serif !important;  /* TITLE FONT */
+  font-weight: 600 !important;
+  letter-spacing: 3px;
+}
+
+.intro-header .page-heading h1{
+  font-size: 2.35rem !important;
+  line-height: 1.15 !important;
+}
+
+/* subtitle */
+.page-subheading{
+  color: var(--gold) !important;
+  font-family: 'Cutive Mono', cursive !important;  /* subtitle font */
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+  line-height: 1.25 !important;
+  letter-spacing: 0.6px !important;
+  text-transform: none !important;
+}
+
+/* Content headings */
+h2,h3,h4,h5,h6{
+  color: var(--blue-mid);
+  font-weight: 400;
+}
+
+main h2,
+main h3{
+  font-size: 1.55rem;
+  line-height: 1.25;
+}
+
+/* ================================
+   Navbar
+   ================================ */
+
+.navbar{
+  background-color: var(--ust-blue);
+  border-color: var(--ust-blue);
+  padding-top: 0.36rem;
+  padding-bottom: 0.36rem;
+}
+
+/* group name */
+.navbar .navbar-brand{
+  color: #ffffff !important;
+  font-family: 'Kaushan Script', cursive !important; /* group name font */
+  font-weight: 350;
+  font-size: 1.5rem !important;
+  letter-spacing: 1px;
+  display: inline-flex;
+  align-items: center;
+  padding-top: 0.2rem;
+  padding-bottom: 0;
+  text-transform: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus{
+  color: var(--gold) !important;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar .navbar-brand-logo{
+  height: 40px;
+  width: auto;
+  margin-right: 0.6rem;
+  display: inline-block;
+}
+
+.navbar .navbar-nav .nav-link{
+  color: #ffffff !important;
+  font-family: 'Cinzel', serif !important; /* nav font */
+  font-weight: 500;
+  font-size: 0.95rem !important;
+  letter-spacing: 0.3px;
+  padding-top: 0.30rem;
+  padding-bottom: 0.30rem;
+  text-transform: uppercase;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:focus{
+  background-color: transparent !important;
+  color: var(--gold-accent) !important;
+}
+
+.navbar .navbar-nav .active > .nav-link{
+  background-color: transparent !important;
+  color: var(--gold-accent) !important;
+  border-bottom: 2px solid var(--gold-accent);
+}
+
+@media (max-width: 1199.98px){
+  .navbar{
+    padding-top: 0.18rem;
+    padding-bottom: 0.18rem;
+  }
+  .navbar .navbar-nav .nav-link{
+    padding-top: 0.22rem;
+    padding-bottom: 0.22rem;
+  }
+  .navbar .navbar-toggler{
+    padding: 0.12rem 0.42rem;
+  }
+}
+
+/* ================================
+   Main spacing
+   ================================ */
+
+main{
+  padding-bottom: 0.35rem !important;
+}
+
+main p:last-child,
+main ul:last-child{
+  margin-bottom: 0.35rem !important;
+}
+
+blockquote{
+  border-left: 4px solid var(--gold);
+}
+
+/* ================================
+   Footer
+   ================================ */
+
+footer,
+.site-footer-wrap{
+  background: var(--ust-blue) !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.site-footer-wrap{
+  margin-top: 0.45rem !important;
+  padding: 0 !important;
+}
+
+.site-footer{
+  padding-top: 0.6rem !important;
+  padding-bottom: 0.28rem !important;
+}
+
+.site-footer .footer-links{
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 1 !important;
+}
+
+.site-footer .list-inline-item{
+  margin-left: 0.28rem;
+  margin-right: 0.28rem;
+}
+
+.site-footer .fa-stack{
+  font-size: 1.5rem !important;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+}
+
+.site-footer .fa-circle{
+  color: var(--gold-accent) !important;
+}
+.site-footer .fa-inverse{
+  color: #ffffff !important;
+}
+
+.site-footer-text{
+  margin: 0.10rem 0 0 0 !important;
+  padding: 0 !important;
+  font-size: 1.02rem !important;
+  line-height: 1.15 !important;
+  color: var(--gold-accent) !important;
+}
+
+.site-footer a{
+  color: var(--gold-accent) !important;
+  text-decoration: none;
+}
+
+/* ================================
+   Two-column layout
+   ================================ */
+
+.two-col{
+  display: flex;
+  gap: 1.2rem;
+  align-items: flex-start;
+  margin: 0.6rem 0 1.2rem 0;
+}
+
+.two-col-media{
+  flex: 0 0 320px;
+}
+
+.two-col-media img{
+  width: 100%;
+  height: auto;
+  max-height: 360px;
+  object-fit: contain;
+  border-radius: 6px;
+  display: block;
+}
+
+.two-col-text{
+  flex: 1 1 auto;
+  padding-top: 0 !important;
+}
+
+.two-col-text p{
+  margin-top: 0 !important;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+@media (max-width: 768px){
+  .two-col{
+    flex-direction: column;
+  }
+  .two-col-media{
+    flex: 0 0 auto;
+    width: 100%;
+  }
+}
+
+/* ================================
+   Members page layout
+   ================================ */
+
+.pi-center {
+  width: 100%;
+  padding-left: 1.8rem;
+  display: block;
+}
+
+.pi-grid{
+  display: grid;
+  grid-template-columns: 280px minmax(0, 1fr);
+  gap: 3.2rem;
+  align-items: start;
+  margin: 0.6rem 0 1.2rem 0;
+  max-width: 1000px;
+}
+
+.pi-name-incol{
+  margin: 0 0 0.6rem 0;
+}
+
+.pi-photo{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+  object-fit: cover;
+}
+
+.pi-email{
+  margin: 0.65rem 0 0 0;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.pi-cv{
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.pi-cv li{
+  margin-bottom: 0.85rem;
+  line-height: 1.35;
+}
+
+.pi-date{
+  font-weight: 400;
+  opacity: 0.9;
+}
+
+.member-grid{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.0rem 1.2rem;
+  margin: 0.8rem 0 1.4rem 0;
+}
+
+.member-card{
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  padding: 0.7rem 0.8rem;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+}
+
+.member-photo{
+  width: 135px;
+  height: 135px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex: 0 0 auto;
+}
+
+.member-name{
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.member-line{
+  margin-top: 0.15rem;
+  line-height: 1.2;
+}
+
+.alumni-list li strong {
+  font-weight: 400 !important;
+}
+
+/* ================================
+   Publications Accordion Styles
+   ================================ */
+
+.pub-year {
+  margin-bottom: 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  padding-bottom: 0.5rem;
+}
+
+.pub-year summary {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--blue-mid);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  outline: none;
+  list-style: none;
+}
+
+.pub-year summary::before {
+  content: '▶';
+  display: inline-block;
+  font-size: 0.75rem;
+  margin-right: 0.8rem;
+  transition: transform 0.2s ease;
+  color: var(--gold);
+}
+
+.pub-year[open] > summary::before {
+  transform: rotate(90deg);
+}
+
+.pub-year .pub-content-wrap {
+  margin-left: 0; 
+  margin-top: 0.5rem;
+}
+
+.pub-year .pub-year {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  margin-left: 0; 
+}
+
+.pub-year .pub-year:last-child {
+  border-bottom: none;
+}
+
+.pub-list {
+  padding: 0.8rem 0 0.8rem 0; 
+  font-size: 1rem; /* Reduced body font size slightly for cleaner look */
+}
+
+.pub-list ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.pub-list li {
+  margin-bottom: 2.2rem; /* Increased vertical spacing between papers */
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.pub-title {
+  color: var(--ust-blue);
+  font-weight: 400;
+}
+
+/* Publication count badge - Adaptive Pill Shape */
+.pub-count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--blue-light); 
+  color: var(--ust-blue); 
+  font-size: 1rem;
+  font-weight: 550;
+  min-width: 28px;
+  height: 28px;
+  padding: 0 8px;
+  border-radius: 15px;
+  margin-left: 12px;
+  vertical-align: middle;
+  transition: all 0.3s ease;
+}
+
+summary:hover .pub-count {
+  background-color: var(--gold-hover); 
+  color: var(--ust-blue);
+}
+
+@media (max-width: 768px){
+  .pi-center { padding-left: 0; }
+  .pi-grid{ grid-template-columns: 1fr; text-align: center; }
+  .pi-photo-wrap { display: flex; flex-direction: column; align-items: center; }
+  .pi-photo{ max-width: 280px; }
+  .pi-cv { text-align: left; margin-top: 1rem; }
+  .pi-email{ white-space: normal; }
+  .member-grid{ grid-template-columns: 1fr; }
+}
+
+
+/* --- Journal Covers Carousel Styles --- */
+
+/* Outer container: Adds padding for arrows and bottom margin */
+.journal-carousel {
+  padding: 20px 10px;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+/* The visible window: Clips the content that flows outside */
+.journal-carousel .carousel-inner {
+  display: flex;
+  overflow: hidden; /* Important: Hides images 6, 7, 8 */
+  /* Added vertical padding to prevent images from being clipped when scaled up on hover */
+  padding: 15px 0;
+}
+
+/* The moving track: Holds all images in a row and handles the slide animation */
+.journal-carousel .cards-wrapper {
+  display: flex;
+  width: 100%;
+  transition: transform 0.5s ease-in-out; /* Smooth slide effect */
+  align-items: center;
+}
+
+/* Individual image box: Fixed to 20% width to show exactly 5 items */
+.journal-carousel .cover-wrapper {
+  flex: 0 0 20%; /* Each item takes up 1/5 of the container */
+  padding: 0 4px; /* Narrow gaps as requested */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Cover image: Size control and depth */
+.cover-img {
+  max-height: 200px;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  transform-origin: center center; /* Center-aligned scaling */
+  transition: transform 0.3s ease;
+  border-radius: 2px;
+}
+
+/* Hover effect for covers */
+.cover-img:hover {
+  transform: scale(1.08);
+}
+
+/* --- Arrow Controls Refined --- */
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Gold arrow shape */
+.carousel-control-prev-icon::after,
+.carousel-control-next-icon::after {
+  content: '';
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border-top: 3.5px solid var(--gold);
+  border-left: 3.5px solid var(--gold);
+}
+
+.carousel-control-prev-icon::after {
+  transform: rotate(-45deg);
+}
+
+.carousel-control-next-icon::after {
+  transform: rotate(135deg);
+}
+
+/* Position arrows slightly outside the carousel */
+.carousel-control-prev {
+  left: -15px; /* Adjust this value to move closer or further */
+  width: 50px;
+}
+
+.carousel-control-next {
+  right: -15px;
+  width: 50px;
+}
+
+/* Hover effect for arrows: Scale up and no background shadow */
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon {
+  transform: scale(1.25);
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background: transparent !important;
+}

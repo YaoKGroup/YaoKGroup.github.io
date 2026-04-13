@@ -1,0 +1,37 @@
+<nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-regular">
+  <a class="navbar-brand" href="https://hkust.edu.hk/" aria-label="HKUST website">
+    <img
+      src="{{ '/assets/img/hkustLogo.png' | relative_url }}"
+      alt="HKUST logo"
+      class="navbar-brand-logo"
+    >
+  </a>
+
+  <a class="navbar-brand" href="{{ '/' | relative_url }}">
+    {{ site.title }}
+  </a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar"
+          aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="main-navbar">
+    <ul class="navbar-nav ml-auto">
+      {% for item in site.navbar-links %}
+        {% assign text = item[0] %}
+        {% assign link = item[1] %}
+
+        {% if link == "" %}
+          {% assign href = '/' | relative_url %}
+        {% else %}
+          {% assign href = link | prepend: '/' | relative_url %}
+        {% endif %}
+
+        <li class="nav-item">
+          <a class="nav-link" href="{{ href }}">{{ text }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</nav>
