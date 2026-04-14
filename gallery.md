@@ -143,6 +143,13 @@ permalink: /gallery/
         <span class="overlay-desc">The Dance over Shipbreaker Bay</span>
       </div>
     </div>
+    <div class="gallery-item" data-category="research">
+      <img src="{{ site.baseurl }}/assets/img/dotd.png" alt="Dance of the Dragons">
+      <div class="gallery-overlay">
+        <span class="overlay-title">Dance of the Dragons</span>
+        <span class="overlay-desc">The Dance over Shipbreaker Bay</span>
+      </div>
+    </div>
     <div class="gallery-item" data-category="activities">
       <img src="{{ site.baseurl }}/assets/img/the-conquest.jpg" alt="The Conquest">
       <div class="gallery-overlay">
