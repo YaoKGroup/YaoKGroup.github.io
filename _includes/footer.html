@@ -27,6 +27,17 @@
           </li>
           {% endif %}
 
+          {% if site.social-network-links.orcid %}
+          <li class="list-inline-item">
+            <a class="footer-icon-link" href="{{ site.social-network-links.orcid }}" target="_blank" aria-label="ORCID">
+              <span class="fa-stack" aria-hidden="true">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="ai ai-orcid-low fa-stack-1x" style="color: #ffffff; font-size: 1.4em; line-height: 1.4em;"></i>
+              </span>
+            </a>
+          </li>
+          {% endif %}
+
           {% if site.social-network-links.researchgate %}
           <li class="list-inline-item">
             <a class="footer-icon-link" href="{{ site.social-network-links.researchgate }}" target="_blank" aria-label="ResearchGate">
