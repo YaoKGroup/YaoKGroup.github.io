@@ -11,7 +11,7 @@
 
 /* Base typography */
 body{
-  font-family: "Source Serif 4", Georgia, "Times New Roman", Times, serif;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
   font-weight: 400;
   color: var(--text-main);
 }
@@ -27,8 +27,8 @@ a:hover,a:focus{ color: var(--gold); }
 .intro-header .page-heading h1,
 .intro-header .post-heading h1{
   color: var(--ust-blue) !important;
-  font-family: Georgia, "Times New Roman", Times, serif !important;  /* TITLE FONT */
-  font-weight: 500 !important;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;  /* TITLE FONT */
+  font-weight: 700 !important;
   letter-spacing: 2.5px;
 }
 
@@ -41,7 +41,7 @@ a:hover,a:focus{ color: var(--gold); }
 .page-subheading{
   color: var(--gold) !important;
   /*font-family: 'Cutive Mono', cursive !important;*/  /* subtitle font */
-  font-family: Georgia, "Times New Roman", Times, serif !important;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
   font-size: 1rem !important;
   font-weight: 500 !important;
   line-height: 1.25 !important;
@@ -103,7 +103,7 @@ main h3{
 
 .navbar .navbar-nav .nav-link{
   color: #ffffff !important;
-  font-family: Georgia, "Times New Roman", Times, serif !important; /* nav font */
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important; /* nav font */
   font-weight: 100;
   font-size: 0.95rem !important;
   letter-spacing: 0.5px;
