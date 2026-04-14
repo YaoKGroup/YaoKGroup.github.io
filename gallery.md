@@ -22,7 +22,7 @@ permalink: /gallery/
 
     #custom-gallery-container .filter-tag {
       font-size: 1.1rem;
-      text-transform: none;
+      text-transform: capitalize;
       cursor: pointer;
       color: var(--ust-blue);
       padding: 5px 0;
