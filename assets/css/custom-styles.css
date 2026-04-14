@@ -45,7 +45,7 @@ a:hover,a:focus{ color: var(--gold); }
   font-size: 1rem !important;
   font-weight: 500 !important;
   line-height: 1.25 !important;
-  letter-spacing: 0.9px !important;
+  letter-spacing: 1.5px !important;
   text-transform: none !important;
 }
 
