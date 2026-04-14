@@ -28,8 +28,8 @@ a:hover,a:focus{ color: var(--gold); }
 .intro-header .post-heading h1{
   color: var(--ust-blue) !important;
   font-family: Georgia, "Times New Roman", Times, serif !important;  /* TITLE FONT */
-  font-weight: 300 !important;
-  letter-spacing: 3px;
+  font-weight: 350 !important;
+  letter-spacing: 2.5px;
 }
 
 .intro-header .page-heading h1{
@@ -103,10 +103,10 @@ main h3{
 .navbar .navbar-nav .nav-link{
   color: #ffffff !important;
   font-family: Georgia, "Times New Roman", Times, serif !important; /* nav font */
-  font-weight: 150;
+  font-weight: 50;
   font-size: 0.95rem !important;
   letter-spacing: 0.3px;
-  padding-top: 0.35rem;
+  padding-top: 0.30rem;
   padding-bottom: 0.30rem;
   text-transform: uppercase;
 }
