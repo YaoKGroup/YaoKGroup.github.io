@@ -43,7 +43,7 @@ a:hover,a:focus{ color: var(--gold); }
   /*font-family: 'Cutive Mono', cursive !important;*/  /* subtitle font */
   font-family: Georgia, "Times New Roman", Times, serif !important;
   font-size: 1rem !important;
-  font-weight: 600 !important;
+  font-weight: 500 !important;
   line-height: 1.25 !important;
   letter-spacing: 3.0px !important;
   text-transform: none !important;
