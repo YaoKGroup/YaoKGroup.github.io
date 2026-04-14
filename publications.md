@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Publications"
-subtitle: "full list of publications"
+subtitle: ""
 permalink: /publications/
 ---
 
