@@ -7,5 +7,4 @@ subtitle: " HKUST • Division of Integrative Systems and Design"
 Waiting for some news...
 
 
-
-- 2026-01-09: Website launched.
+2026-01-09: Website launched.
