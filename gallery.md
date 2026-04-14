@@ -9,7 +9,7 @@ permalink: /gallery/
   <style>
     #custom-gallery-container {
       font-family: "Source Serif 4", Georgia, "Times New Roman", Times, serif;
-      color: #1b1f24;
+      color: var(--text-main);
     }
 
     #custom-gallery-container .gallery-filters {
@@ -30,8 +30,15 @@ permalink: /gallery/
       position: relative;
     }
 
-    #custom-gallery-container .filter-tag:hover { color: var(--gold-hover); }
-    #custom-gallery-container .filter-tag.active { font-weight: bold; color: var(--gold); }
+    #custom-gallery-container .filter-tag:hover,
+    #custom-gallery-container .filter-tag.active { 
+      color: var(--gold);
+    }
+
+    #custom-gallery-container .filter-tag.active { 
+      font-weight: bold; 
+    }
+
     #custom-gallery-container .filter-tag.active::after {
       content: '';
       position: absolute;
@@ -39,10 +46,9 @@ permalink: /gallery/
       left: 0;
       width: 100%;
       height: 3px;
-      background: #996600;
+      background: var(--gold);
     }
 
-    /* Masonry */
     #custom-gallery-container .gallery-grid {
       display: block;
       column-count: 3;
@@ -57,15 +63,16 @@ permalink: /gallery/
       display: inline-block;
       width: 100%;
       margin-bottom: 20px;
+      break-inside: avoid;
       position: relative;
       border-radius: 10px;
       overflow: hidden;
       background: #f9f9f9;
-      transition: opacity 0.4s ease, transform 0.4s ease;
+      transition: opacity 0.4s ease;
     }
 
-    #custom-gallery-container .gallery-item.hidden {
-      display: none;
+    #custom-gallery-container .gallery-item.hidden { 
+      display: none; 
     }
 
     #custom-gallery-container .gallery-item img {
@@ -99,78 +106,82 @@ permalink: /gallery/
       transform: scale(1.05); 
     }
 
-    .overlay-title { font-family: inherit; font-size: 1rem; font-weight: 600; display: block; margin-bottom: 4px; }
-    .overlay-desc { font-family: inherit; font-size: 0.8rem; opacity: 0.9; line-height: 1.3; }
+    .overlay-title { 
+      font-family: inherit; 
+      font-size: 1rem; 
+      font-weight: 600; 
+      display: block; 
+      margin-bottom: 4px; 
+    }
+    .overlay-desc { 
+      font-family: inherit; 
+      font-size: 0.8rem; 
+      opacity: 0.9; 
+      line-height: 1.3; 
+    }
   </style>
 
   <div class="gallery-filters">
-    <span class="filter-tag active" data-filter="all">All</span>
-    <span class="filter-tag" data-filter="research">Research</span>
-    <span class="filter-tag" data-filter="activities">Activities</span>
-    <span class="filter-tag" data-filter="memories">Memories</span>
+    <span class="filter-tag active" data-filter="all">all</span>
+    <span class="filter-tag" data-filter="research">research</span>
+    <span class="filter-tag" data-filter="activities">activities</span>
+    <span class="filter-tag" data-filter="memories">memories</span>
   </div>
 
   <div class="gallery-grid" id="gallery-grid">
-    
     <div class="gallery-item" data-category="research">
-      <img src="{{ site.baseurl }}/assets/img/pi.jpg" alt="Research 1">
+      <img src="{{ site.baseurl }}/assets/img/pi.jpg" alt="Who">
       <div class="gallery-overlay">
-        <span class="overlay-title">Field Study</span>
-        <span class="overlay-desc">Experimental data collection and analysis.</span>
+        <span class="overlay-title">Who</span>
+        <span class="overlay-desc">I don't know</span>
       </div>
     </div>
     <div class="gallery-item" data-category="research">
-      <img src="{{ site.baseurl }}/assets/img/dotd.png" alt="Research 2">
+      <img src="{{ site.baseurl }}/assets/img/dotd.png" alt="Dance of the Dragons">
       <div class="gallery-overlay">
-        <span class="overlay-title">Numerical Simulation</span>
-        <span class="overlay-desc">Modeling complex flow structures.</span>
-      </div>
-    </div>
-
-    <div class="gallery-item" data-category="activities">
-      <img src="{{ site.baseurl }}/assets/img/the-conquest.jpg" alt="Activities 1">
-      <div class="gallery-overlay">
-        <span class="overlay-title">Conference Talk</span>
-        <span class="overlay-desc">Presenting latest findings at the symposium.</span>
+        <span class="overlay-title">Dance of the Dragons</span>
+        <span class="overlay-desc">The Dance over Shipbreaker Bay</span>
       </div>
     </div>
     <div class="gallery-item" data-category="activities">
-      <img src="{{ site.baseurl }}/assets/img/it.jpg" alt="Activities 2">
+      <img src="{{ site.baseurl }}/assets/img/the-conquest.jpg" alt="The Conquest">
       <div class="gallery-overlay">
-        <span class="overlay-title">Lab Discussion</span>
-        <span class="overlay-desc">Weekly brainstorming session in the meeting room.</span>
+        <span class="overlay-title">The Conquest</span>
+        <span class="overlay-desc">Visenya Targaryen and Vhagar</span>
       </div>
     </div>
-
+    <div class="gallery-item" data-category="activities">
+      <img src="{{ site.baseurl }}/assets/img/it.jpg" alt="Iron Throne">
+      <div class="gallery-overlay">
+        <span class="overlay-title">Iron Throne</span>
+        <span class="overlay-desc">The throne of the monarchs of the Seven Kingdoms</span>
+      </div>
+    </div>
     <div class="gallery-item" data-category="memories">
-      <img src="{{ site.baseurl }}/assets/img/darksister.jpeg" alt="Memories 1">
+      <img src="{{ site.baseurl }}/assets/img/darksister.jpeg" alt="Dark Sister">
       <div class="gallery-overlay">
-        <span class="overlay-title">Campus Life</span>
-        <span class="overlay-desc">Beautiful scenery during the autumn semester.</span>
+        <span class="overlay-title">Dark Sister</span>
+        <span class="overlay-desc">a longsword of Valyrian steel</span>
       </div>
     </div>
     <div class="gallery-item" data-category="memories">
-      <img src="{{ site.baseurl }}/assets/img/placeholder-member.jpg" alt="Memories 2">
+      <img src="{{ site.baseurl }}/assets/img/placeholder-member.jpg" alt="Daemon Targaryen">
       <div class="gallery-overlay">
-        <span class="overlay-title">Group Dinner</span>
-        <span class="overlay-desc">Celebrating the successful project completion.</span>
+        <span class="overlay-title">Daemon Targaryen</span>
+        <span class="overlay-desc">The Rogue Prince, Commander of the City Watch</span>
       </div>
     </div>
-
   </div>
 
   <script>
     document.addEventListener("DOMContentLoaded", function() {
       const filters = document.querySelectorAll('#custom-gallery-container .filter-tag');
       const items = document.querySelectorAll('#custom-gallery-container .gallery-item');
-      
       filters.forEach(filter => {
         filter.addEventListener('click', function() {
           filters.forEach(f => f.classList.remove('active'));
           this.classList.add('active');
-          
           const selectedFilter = this.getAttribute('data-filter');
-          
           items.forEach(item => {
             const itemCategory = item.getAttribute('data-category');
             if (selectedFilter === 'all' || selectedFilter === itemCategory) {
