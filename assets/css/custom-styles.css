@@ -103,9 +103,9 @@ main h3{
 .navbar .navbar-nav .nav-link{
   color: #ffffff !important;
   font-family: Georgia, "Times New Roman", Times, serif !important; /* nav font */
-  font-weight: 50;
-  font-size: 0.95rem !important;
-  letter-spacing: 0.3px;
+  font-weight: 100;
+  font-size: 0.9rem !important;
+  letter-spacing: 0.5px;
   padding-top: 0.30rem;
   padding-bottom: 0.30rem;
   text-transform: uppercase;
