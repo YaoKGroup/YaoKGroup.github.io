@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contact
-subtitle: "get in touch with us"
+subtitle: ""
 permalink: /contact/
 ---
 
