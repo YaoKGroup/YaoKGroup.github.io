@@ -9,7 +9,7 @@ permalink: /contact/
 
   <div style="flex: 2; min-width: 300px;">
     <div style="margin-bottom: 20px;">
-      <div style="margin-bottom: 5px; font-size: 1.5em; font-weight: bold; color: #2F6FA8; font-family: inherit;">Prof. Kuanming Yao</div>
+      <div style="margin-bottom: 5px; font-size: 1.5em; color: #2F6FA8; font-family: inherit;">Prof. Kuanming Yao</div>
       
       <p style="margin-top: 0; color: #2F6FA8; line-height: 1.6; font-style: normal; font-family: inherit;">
         Division of Integrative Systems and Design<br>
