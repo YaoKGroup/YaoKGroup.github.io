@@ -225,11 +225,6 @@ permalink: /research/
   </div>
 </div>
 
-<h2>Projects</h2>
-<ul>
-  <li>Project A</li>
-  <li>Project B</li>
-</ul>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
