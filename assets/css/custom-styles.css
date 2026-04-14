@@ -28,7 +28,7 @@ a:hover,a:focus{ color: var(--gold); }
 .intro-header .post-heading h1{
   color: var(--ust-blue) !important;
   font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;  /* TITLE FONT */
-  font-weight: 700 !important;
+  font-weight: 500 !important;
   letter-spacing: 2.5px;
 }
 
@@ -105,7 +105,7 @@ main h3{
   color: #ffffff !important;
   font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important; /* nav font */
   font-weight: 100;
-  font-size: 0.95rem !important;
+  font-size: 1rem !important;
   letter-spacing: 0.5px;
   padding-top: 0.30rem;
   padding-bottom: 0.30rem;
