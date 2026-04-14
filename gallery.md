@@ -8,10 +8,9 @@ permalink: /gallery/
 <div id="custom-gallery-container">
   <style>
     #custom-gallery-container {
-      font-family: "Source Serif 4", Georgia, "Times New Roman", Times, serif;
       color: var(--text-main);
     }
-
+    
     #custom-gallery-container .gallery-filters {
       display: flex;
       gap: 30px;
