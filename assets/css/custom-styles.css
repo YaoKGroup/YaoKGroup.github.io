@@ -16,6 +16,15 @@ body{
   color: var(--text-main);
 }
 
+  /* sans-serif */
+/*
+body {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: var(--text-main);
+  line-height: 1.6;
+}*/
+
 /* Links */
 a{ color: var(--ust-blue); }
 a:hover,a:focus{ color: var(--gold); }
