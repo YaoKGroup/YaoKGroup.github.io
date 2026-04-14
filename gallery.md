@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Gallery"
-subtitle: "moments and memories"
+subtitle: ""
 permalink: /gallery/
 ---
 
