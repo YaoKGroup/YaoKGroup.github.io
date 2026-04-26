@@ -12,7 +12,7 @@ permalink: /members/
     <div class="pi-photo-wrap">
       <h3 class="pi-name-incol">Dr. Kuanming Yao</h3>
 
-      <img class="pi-photo" src="{{ '/assets/img/yao.jpg' | relative_url }}" alt="PI photo">
+      <img class="pi-photo" src="{{ '/photos/member/yao.jpg' | relative_url }}" alt="PI photo">
 
     </div>
 
