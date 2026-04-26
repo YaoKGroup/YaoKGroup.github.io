@@ -142,13 +142,13 @@ permalink: /research/
     <div class="research-carousel" data-carousel="wearable-haptics">
       <div class="research-carousel-track">
         <div class="research-carousel-slide">
-          <img src="{{ '/assets/img/the-conquest.jpg' | relative_url }}" alt="Wearable haptic interfaces 1">
+          <img src="{{ '/photos/research/hpt1.png' | relative_url }}" alt="Wearable haptic interfaces 1">
         </div>
         <div class="research-carousel-slide">
-          <img src="{{ '/assets/img/it.jpg' | relative_url }}" alt="Wearable haptic interfaces 2">
+          <img src="{{ '/photos/research/hpt2.png' | relative_url }}" alt="Wearable haptic interfaces 2">
         </div>
         <div class="research-carousel-slide">
-          <img src="{{ '/assets/img/the-conquest.jpg' | relative_url }}" alt="Wearable haptic interfaces 3">
+          <img src="{{ '//photos/research/hpt3.png' | relative_url }}" alt="Wearable haptic interfaces 3">
         </div>
       </div>
 
@@ -175,10 +175,7 @@ permalink: /research/
     <div class="research-carousel" data-carousel="implantable-bioelectronics">
       <div class="research-carousel-track">
         <div class="research-carousel-slide">
-          <img src="{{ '/assets/img/dotd.png' | relative_url }}" alt="Implantable bioelectronics 1">
-        </div>
-        <div class="research-carousel-slide">
-          <img src="{{ '/assets/img/dotd.png' | relative_url }}" alt="Implantable bioelectronics 2">
+          <img src="{{ '/photos/research/bio1.png' | relative_url }}" alt="Implantable bioelectronics 1">
         </div>
       </div>
 
@@ -205,7 +202,10 @@ permalink: /research/
     <div class="research-carousel" data-carousel="advanced-manufacturing">
       <div class="research-carousel-track">
         <div class="research-carousel-slide">
-          <img src="{{ '/assets/img/the-conquest.jpg' | relative_url }}" alt="Advanced manufacturing 1">
+          <img src="{{ '//photos/research/es1.png' | relative_url }}" alt="electronic system 1">
+        </div>
+        <div class="research-carousel-slide">
+          <img src="{{ '//photos/research/es2.png' | relative_url }}" alt="electronic system 2">
         </div>
       </div>
 
