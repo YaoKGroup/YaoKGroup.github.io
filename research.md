@@ -114,14 +114,9 @@ permalink: /research/
 <div id="journalCarousel" class="carousel slide journal-carousel">
   <div class="carousel-inner">
     <div class="cards-wrapper">
-      <div class="cover-wrapper"><img src="{{ '/assets/img/darksister.jpeg' | relative_url }}" class="cover-img" alt="Journal 1"></div>
-      <div class="cover-wrapper"><img src="{{ '/assets/img/darksister.jpeg' | relative_url }}" class="cover-img" alt="Journal 2"></div>
-      <div class="cover-wrapper"><img src="{{ '/assets/img/darksister.jpeg' | relative_url }}" class="cover-img" alt="Journal 3"></div>
-      <div class="cover-wrapper"><img src="{{ '/assets/img/darksister.jpeg' | relative_url }}" class="cover-img" alt="Journal 4"></div>
-      <div class="cover-wrapper"><img src="{{ '/assets/img/darksister.jpeg' | relative_url }}" class="cover-img" alt="Journal 5"></div>
-      <div class="cover-wrapper"><img src="{{ '/assets/img/darksister.jpeg' | relative_url }}" class="cover-img" alt="Journal 6"></div>
-      <div class="cover-wrapper"><img src="{{ '/assets/img/darksister.jpeg' | relative_url }}" class="cover-img" alt="Journal 7"></div>
-      <div class="cover-wrapper"><img src="{{ '/assets/img/darksister.jpeg' | relative_url }}" class="cover-img" alt="Journal 8"></div>
+      <div class="cover-wrapper"><img src="{{ '/photos/art/nmi2022.webp' | relative_url }}" class="cover-img" alt="Journal 1"></div>
+      <div class="cover-wrapper"><img src="{{ '/photos/art/jmca2022.webp' | relative_url }}" class="cover-img" alt="Journal 2"></div>
+      <div class="cover-wrapper"><img src="{{ '/photos/art/csr2024.jpg' | relative_url }}" class="cover-img" alt="Journal 3"></div>
     </div>
   </div>
 
@@ -225,7 +220,6 @@ permalink: /research/
   </div>
 </div>
 
-
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const wrapper = document.querySelector('.cards-wrapper');
@@ -234,8 +228,25 @@ document.addEventListener('DOMContentLoaded', function() {
   const carousel = document.querySelector('#journalCarousel');
 
   let isTransitioning = false;
-  const itemWidth = 20;
+  const visibleCount = 5;
+  const totalItems = wrapper.children.length;
+  const itemWidth = 100 / visibleCount;
   let autoPlayTimer = null;
+
+  /*
+    Top journal carousel rule:
+    - 1 to 5 images: show from the left, keep empty space on the right, no movement.
+    - More than 5 images: enable movement and autoplay.
+  */
+  if (totalItems <= visibleCount) {
+    wrapper.style.transition = 'none';
+    wrapper.style.transform = 'translateX(0)';
+
+    if (prevBtn) prevBtn.style.display = 'none';
+    if (nextBtn) nextBtn.style.display = 'none';
+
+    return;
+  }
 
   function showNext() {
     if (isTransitioning) return;
