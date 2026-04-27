@@ -36,7 +36,7 @@ permalink: /gallery/
     }
 
     #custom-gallery-container .filter-tag.active { 
-      font-weight: 600; 
+      font-weight: 500; 
     }
 
     #custom-gallery-container .filter-tag::after {
@@ -131,8 +131,8 @@ permalink: /gallery/
   <div class="gallery-filters">
     <span class="filter-tag active" data-filter="all">all</span>
     <span class="filter-tag" data-filter="research">research</span>
-    <span class="filter-tag" data-filter="activities">activities</span>
-    <span class="filter-tag" data-filter="memories">memories</span>
+    <span class="filter-tag" data-filter="moments">moments</span>
+    <span class="filter-tag" data-filter="captures">captures</span>
   </div>
 
   <div class="gallery-grid" id="gallery-grid">
@@ -140,49 +140,49 @@ permalink: /gallery/
       <img src="{{ site.baseurl }}/assets/img/pi.jpg" alt="Who">
       <div class="gallery-overlay">
         <span class="overlay-title">Who</span>
-        <span class="overlay-desc">I don't know</span>
+        <span class="overlay-desc"> </span>
       </div>
     </div>
-    <div class="gallery-item" data-category="research">
-      <img src="{{ site.baseurl }}/assets/img/dotd.png" alt="Dance of the Dragons">
-      <div class="gallery-overlay">
-        <span class="overlay-title">Dance of the Dragons</span>
-        <span class="overlay-desc">The Dance over Shipbreaker Bay</span>
-      </div>
-    </div>
-    <div class="gallery-item" data-category="research">
-      <img src="{{ site.baseurl }}/assets/img/dotd.png" alt="Dance of the Dragons">
-      <div class="gallery-overlay">
-        <span class="overlay-title">Dance of the Dragons</span>
-        <span class="overlay-desc">The Dance over Shipbreaker Bay</span>
-      </div>
-    </div>
-    <div class="gallery-item" data-category="activities">
-      <img src="{{ site.baseurl }}/assets/img/the-conquest.jpg" alt="The Conquest">
-      <div class="gallery-overlay">
-        <span class="overlay-title">The Conquest</span>
-        <span class="overlay-desc">Visenya Targaryen and Vhagar</span>
-      </div>
-    </div>
-    <div class="gallery-item" data-category="activities">
-      <img src="{{ site.baseurl }}/assets/img/it.jpg" alt="Iron Throne">
-      <div class="gallery-overlay">
-        <span class="overlay-title">Iron Throne</span>
-        <span class="overlay-desc">The throne of the monarchs of the Seven Kingdoms</span>
-      </div>
-    </div>
-    <div class="gallery-item" data-category="memories">
+    <div class="gallery-item" data-category="moments">
       <img src="{{ site.baseurl }}/assets/img/darksister.jpeg" alt="Dark Sister">
       <div class="gallery-overlay">
         <span class="overlay-title">Dark Sister</span>
         <span class="overlay-desc">a longsword of Valyrian steel</span>
       </div>
     </div>
-    <div class="gallery-item" data-category="memories">
-      <img src="{{ site.baseurl }}/assets/img/placeholder-member.jpg" alt="Daemon Targaryen">
+    <div class="gallery-item" data-category="moments">
+      <img src="{{ site.baseurl }}/assets/img/dotd.png" alt="Dance of the Dragons">
       <div class="gallery-overlay">
-        <span class="overlay-title">Daemon Targaryen</span>
-        <span class="overlay-desc">The Rogue Prince, Commander of the City Watch</span>
+        <span class="overlay-title">Dance of the Dragons</span>
+        <span class="overlay-desc">The Dance over Shipbreaker Bay</span>
+      </div>
+    </div>
+    <div class="gallery-item" data-category="research">
+      <img src="{{ site.baseurl }}/assets/img/it.jpg" alt="Iron Throne">
+      <div class="gallery-overlay">
+        <span class="overlay-title">Iron Throne</span>
+        <span class="overlay-desc">The throne of the monarchs of the Seven Kingdoms</span>
+      </div>
+    </div>
+    <div class="gallery-item" data-category="moments">
+      <img src="{{ site.baseurl }}/assets/img/the-conquest.jpg" alt="The Conquest">
+      <div class="gallery-overlay">
+        <span class="overlay-title">The Conquest</span>
+        <span class="overlay-desc">Visenya Targaryen and Vhagar</span>
+      </div>
+    </div>
+    <div class="gallery-item" data-category="captures">
+      <img src="{{ site.baseurl }}/photos/pt/_YKM1194.jpg" alt="YKM1194">
+      <div class="gallery-overlay">
+        <span class="overlay-title"></span>
+        <span class="overlay-desc"></span>
+      </div>
+    </div>
+    <div class="gallery-item" data-category="captures">
+      <img src="{{ site.baseurl }}/photos/pt/_YKM1216.jpg" alt="YKM1216">
+      <div class="gallery-overlay">
+        <span class="overlay-title"> </span>
+        <span class="overlay-desc"> </span>
       </div>
     </div>
   </div>
