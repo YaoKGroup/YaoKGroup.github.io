@@ -173,17 +173,18 @@ permalink: /gallery/
     </div>
     <div class="gallery-item" data-category="captures">
       <img src="{{ site.baseurl }}/photos/cpt/YKM1194.jpg" alt="YKM1194">
-      <div class="gallery-overlay">
-        <span class="overlay-title">1</span>
-        <span class="overlay-desc">1</span>
-      </div>
     </div>
     <div class="gallery-item" data-category="captures">
       <img src="{{ site.baseurl }}/photos/cpt/YKM1216.jpg" alt="YKM1216">
-      <div class="gallery-overlay">
-        <span class="overlay-title"> </span>
-        <span class="overlay-desc"> </span>
-      </div>
+    </div>
+    <div class="gallery-item" data-category="captures">
+      <img src="{{ site.baseurl }}/photos/cpt/YKM1231.jpg" alt="YKM1231">
+    </div>
+    <div class="gallery-item" data-category="captures">
+      <img src="{{ site.baseurl }}/photos/cpt/YKM1514.jpg" alt="YKM1514">
+    </div>
+    <div class="gallery-item" data-category="captures">
+      <img src="{{ site.baseurl }}/photos/cpt/YKM240919.jpg" alt="YKM240919">
     </div>
   </div>
 
