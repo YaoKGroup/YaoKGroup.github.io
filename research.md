@@ -117,6 +117,9 @@ permalink: /research/
       <div class="cover-wrapper"><img src="{{ '/photos/art/nmi2022.webp' | relative_url }}" class="cover-img" alt="Journal 1"></div>
       <div class="cover-wrapper"><img src="{{ '/photos/art/jmca2022.webp' | relative_url }}" class="cover-img" alt="Journal 2"></div>
       <div class="cover-wrapper"><img src="{{ '/photos/art/csr2024.jpg' | relative_url }}" class="cover-img" alt="Journal 3"></div>
+      <div class="cover-wrapper"><img src="{{ '/photos/art/nmi2022.webp' | relative_url }}" class="cover-img" alt="Journal 4"></div>
+      <div class="cover-wrapper"><img src="{{ '/photos/art/jmca2022.webp' | relative_url }}" class="cover-img" alt="Journal 5"></div>
+      <div class="cover-wrapper"><img src="{{ '/photos/art/csr2024.jpg' | relative_url }}" class="cover-img" alt="Journal 6"></div>
     </div>
   </div>
 
