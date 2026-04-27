@@ -118,7 +118,7 @@ permalink: /gallery/
       font-size: 1rem; 
       font-weight: 500; 
       display: block; 
-      margin: 0 0 0 0;
+      margin: 0 0 1px 0;
       padding: 0;
       line-height: 1.1;
     }
