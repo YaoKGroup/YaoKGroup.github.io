@@ -130,12 +130,26 @@ permalink: /gallery/
 
   <div class="gallery-filters">
     <span class="filter-tag active" data-filter="all">all</span>
-    <span class="filter-tag" data-filter="research">research</span>
+    <span class="filter-tag" data-filter="media">media</span>
     <span class="filter-tag" data-filter="moments">moments</span>
     <span class="filter-tag" data-filter="captures">captures</span>
   </div>
 
   <div class="gallery-grid" id="gallery-grid">
+    <div class="gallery-item">
+      <img src="{{ site.baseurl }}/photos/media/arn.png" alt="arn">
+      <div class="gallery-overlay">
+        <span class="overlay-title">Asia Research News</span>
+        <span class="overlay-desc">Ultrathin, wireless palm patch brings touch to virtual reality</span>
+      </div>
+    </div>
+    <div class="gallery-item">
+      <img src="{{ site.baseurl }}/photos/media/TVB.png" alt="arn">
+      <div class="gallery-overlay">
+        <span class="overlay-title">TVB HK</span>
+        <span class="overlay-desc">城大研發電子皮膚觸感反饋技術 冀提升虛擬實境體驗</span>
+      </div>
+    </div>
     <div class="gallery-item" data-category="captures">
       <img src="{{ site.baseurl }}/photos/cpt/YKM1194.jpg" alt="YKM1194">
     </div>
