@@ -118,16 +118,16 @@ permalink: /gallery/
       font-size: 1rem; 
       font-weight: 500; 
       display: block; 
-      margin: 0 0 1px 0;
+      margin: 0 0 2px 0;
       padding: 0;
-      line-height: 1.1;
+      line-height: 1.15;
     }
     .overlay-desc { 
       font-family: inherit; 
       font-size: 0.8rem; 
       opacity: 0.9; 
       display: block;
-      line-height: 1.05; 
+      line-height: 1.1; 
       margin: 0;
       padding: 0;
     }
