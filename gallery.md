@@ -150,13 +150,6 @@ permalink: /gallery/
         <span class="overlay-desc">a longsword of Valyrian steel</span>
       </div>
     </div>
-    <div class="gallery-item" data-category="moments">
-      <img src="{{ site.baseurl }}/assets/img/dotd.png" alt="Dance of the Dragons">
-      <div class="gallery-overlay">
-        <span class="overlay-title">Dance of the Dragons</span>
-        <span class="overlay-desc">The Dance over Shipbreaker Bay</span>
-      </div>
-    </div>
     <div class="gallery-item" data-category="research">
       <img src="{{ site.baseurl }}/assets/img/it.jpg" alt="Iron Throne">
       <div class="gallery-overlay">
@@ -177,14 +170,14 @@ permalink: /gallery/
     <div class="gallery-item" data-category="captures">
       <img src="{{ site.baseurl }}/photos/cpt/YKM1216.jpg" alt="YKM1216">
     </div>
-    <div class="gallery-item" data-category="captures">
-      <img src="{{ site.baseurl }}/photos/cpt/YKM1231.jpg" alt="YKM1231">
+        <div class="gallery-item" data-category="captures">
+      <img src="{{ site.baseurl }}/photos/cpt/YKM240919.jpg" alt="YKM240919">
     </div>
     <div class="gallery-item" data-category="captures">
       <img src="{{ site.baseurl }}/photos/cpt/YKM1514.jpg" alt="YKM1514">
     </div>
     <div class="gallery-item" data-category="captures">
-      <img src="{{ site.baseurl }}/photos/cpt/YKM240919.jpg" alt="YKM240919">
+      <img src="{{ site.baseurl }}/photos/cpt/YKM1231.jpg" alt="YKM1231">
     </div>
   </div>
 
