@@ -96,7 +96,7 @@ permalink: /gallery/
       right: 0;
       background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0) 100%);
       color: #fff;
-      padding: 40px 15px 15px 15px;
+      padding: 20px 15px 10px 15px;
       opacity: 0;
       transform: translateY(10px);
       transition: all 0.3s ease;
@@ -116,7 +116,7 @@ permalink: /gallery/
     .overlay-title { 
       font-family: inherit; 
       font-size: 1rem; 
-      font-weight: 600; 
+      font-weight: 500; 
       display: block; 
       margin-bottom: 1px; 
     }
