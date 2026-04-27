@@ -120,14 +120,14 @@ permalink: /gallery/
       display: block; 
       margin: 0 0 0 0;
       padding: 0;
-      line-height: 1;
+      line-height: 1.1;
     }
     .overlay-desc { 
       font-family: inherit; 
       font-size: 0.8rem; 
       opacity: 0.9; 
       display: block;
-      line-height: 1; 
+      line-height: 1.05; 
       margin: 0;
       padding: 0;
     }
