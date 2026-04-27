@@ -172,14 +172,14 @@ permalink: /gallery/
       </div>
     </div>
     <div class="gallery-item" data-category="captures">
-      <img src="{{ site.baseurl }}/photos/pt/_YKM1194.jpg" alt="YKM1194">
+      <img src="{{ site.baseurl }}/photos/cpt/YKM1194.jpg" alt="YKM1194">
       <div class="gallery-overlay">
-        <span class="overlay-title"></span>
-        <span class="overlay-desc"></span>
+        <span class="overlay-title">1</span>
+        <span class="overlay-desc">1</span>
       </div>
     </div>
     <div class="gallery-item" data-category="captures">
-      <img src="{{ site.baseurl }}/photos/pt/_YKM1216.jpg" alt="YKM1216">
+      <img src="{{ site.baseurl }}/photos/cpt/YKM1216.jpg" alt="YKM1216">
       <div class="gallery-overlay">
         <span class="overlay-title"> </span>
         <span class="overlay-desc"> </span>
