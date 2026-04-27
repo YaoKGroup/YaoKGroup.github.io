@@ -136,30 +136,6 @@ permalink: /gallery/
   </div>
 
   <div class="gallery-grid" id="gallery-grid">
-    <div class="gallery-item" data-category="research">
-      <img src="{{ site.baseurl }}/assets/img/pi.jpg" alt="Who">
-    </div>
-    <div class="gallery-item" data-category="moments">
-      <img src="{{ site.baseurl }}/assets/img/darksister.jpeg" alt="Dark Sister">
-      <div class="gallery-overlay">
-        <span class="overlay-title">Dark Sister</span>
-        <span class="overlay-desc">a longsword of Valyrian steel</span>
-      </div>
-    </div>
-    <div class="gallery-item" data-category="research">
-      <img src="{{ site.baseurl }}/assets/img/it.jpg" alt="Iron Throne">
-      <div class="gallery-overlay">
-        <span class="overlay-title">Iron Throne</span>
-        <span class="overlay-desc">The throne of the monarchs of the Seven Kingdoms</span>
-      </div>
-    </div>
-    <div class="gallery-item" data-category="moments">
-      <img src="{{ site.baseurl }}/assets/img/the-conquest.jpg" alt="The Conquest">
-      <div class="gallery-overlay">
-        <span class="overlay-title">The Conquest</span>
-        <span class="overlay-desc">Visenya Targaryen and Vhagar</span>
-      </div>
-    </div>
     <div class="gallery-item" data-category="captures">
       <img src="{{ site.baseurl }}/photos/cpt/YKM1194.jpg" alt="YKM1194">
     </div>
