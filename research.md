@@ -222,104 +222,124 @@ permalink: /research/
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+  /*
+    Top journal carousel:
+    - 1 to 5 images: show from the left, keep empty space on the right, no movement.
+    - More than 5 images: enable arrows and autoplay.
+  */
   const wrapper = document.querySelector('.cards-wrapper');
   const nextBtn = document.querySelector('#journalCarousel .carousel-control-next');
   const prevBtn = document.querySelector('#journalCarousel .carousel-control-prev');
-  const carousel = document.querySelector('#journalCarousel');
+  const journalCarousel = document.querySelector('#journalCarousel');
 
-  let isTransitioning = false;
-  const visibleCount = 5;
-  const totalItems = wrapper.children.length;
-  const itemWidth = 100 / visibleCount;
-  let autoPlayTimer = null;
+  if (wrapper && nextBtn && prevBtn && journalCarousel) {
+    let isTransitioning = false;
+    const visibleCount = 5;
+    const totalItems = wrapper.children.length;
+    const itemWidth = 100 / visibleCount;
+    let autoPlayTimer = null;
 
-  /*
-    Top journal carousel rule:
-    - 1 to 5 images: show from the left, keep empty space on the right, no movement.
-    - More than 5 images: enable movement and autoplay.
-  */
-  if (totalItems <= visibleCount) {
-    wrapper.style.transition = 'none';
-    wrapper.style.transform = 'translateX(0)';
+    function showNext() {
+      if (isTransitioning) return;
 
-    if (prevBtn) prevBtn.style.display = 'none';
-    if (nextBtn) nextBtn.style.display = 'none';
-
-    return;
-  }
-
-  function showNext() {
-    if (isTransitioning) return;
-    isTransitioning = true;
-    wrapper.style.transition = 'transform 0.5s ease-in-out';
-    wrapper.style.transform = `translateX(-${itemWidth}%)`;
-
-    wrapper.addEventListener('transitionend', function handleEnd() {
-      wrapper.style.transition = 'none';
-      wrapper.appendChild(wrapper.firstElementChild);
-      wrapper.style.transform = 'translateX(0)';
-      setTimeout(() => { isTransitioning = false; }, 50);
-      wrapper.removeEventListener('transitionend', handleEnd);
-    });
-  }
-
-  function showPrev() {
-    if (isTransitioning) return;
-    isTransitioning = true;
-    wrapper.style.transition = 'none';
-    wrapper.prepend(wrapper.lastElementChild);
-    wrapper.style.transform = `translateX(-${itemWidth}%)`;
-    setTimeout(() => {
+      isTransitioning = true;
       wrapper.style.transition = 'transform 0.5s ease-in-out';
-      wrapper.style.transform = 'translateX(0)';
-    }, 10);
-    wrapper.addEventListener('transitionend', () => {
-      isTransitioning = false;
-    }, { once: true });
-  }
+      wrapper.style.transform = `translateX(-${itemWidth}%)`;
 
-  function stopAutoPlay() {
-    if (autoPlayTimer) {
-      clearInterval(autoPlayTimer);
-      autoPlayTimer = null;
+      wrapper.addEventListener('transitionend', function handleEnd() {
+        wrapper.style.transition = 'none';
+        wrapper.appendChild(wrapper.firstElementChild);
+        wrapper.style.transform = 'translateX(0)';
+
+        setTimeout(function() {
+          isTransitioning = false;
+        }, 50);
+
+        wrapper.removeEventListener('transitionend', handleEnd);
+      });
+    }
+
+    function showPrev() {
+      if (isTransitioning) return;
+
+      isTransitioning = true;
+      wrapper.style.transition = 'none';
+      wrapper.prepend(wrapper.lastElementChild);
+      wrapper.style.transform = `translateX(-${itemWidth}%)`;
+
+      setTimeout(function() {
+        wrapper.style.transition = 'transform 0.5s ease-in-out';
+        wrapper.style.transform = 'translateX(0)';
+      }, 10);
+
+      wrapper.addEventListener('transitionend', function() {
+        isTransitioning = false;
+      }, { once: true });
+    }
+
+    function stopAutoPlay() {
+      if (autoPlayTimer) {
+        clearInterval(autoPlayTimer);
+        autoPlayTimer = null;
+      }
+    }
+
+    function startAutoPlay() {
+      stopAutoPlay();
+      autoPlayTimer = setInterval(showNext, 3000);
+    }
+
+    if (totalItems <= visibleCount) {
+      wrapper.style.transition = 'none';
+      wrapper.style.transform = 'translateX(0)';
+      prevBtn.style.display = 'none';
+      nextBtn.style.display = 'none';
+    } else {
+      prevBtn.style.display = '';
+      nextBtn.style.display = '';
+
+      nextBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        showNext();
+        startAutoPlay();
+      });
+
+      prevBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        showPrev();
+        startAutoPlay();
+      });
+
+      journalCarousel.addEventListener('mouseenter', stopAutoPlay);
+      journalCarousel.addEventListener('mouseleave', startAutoPlay);
+
+      startAutoPlay();
     }
   }
 
-  function startAutoPlay() {
-    stopAutoPlay();
-    autoPlayTimer = setInterval(showNext, 3000);
-  }
-
-  nextBtn.addEventListener('click', (e) => {
-    e.preventDefault();
-    showNext();
-    startAutoPlay();
-  });
-
-  prevBtn.addEventListener('click', (e) => {
-    e.preventDefault();
-    showPrev();
-    startAutoPlay();
-  });
-
-  carousel.addEventListener('mouseenter', stopAutoPlay);
-  carousel.addEventListener('mouseleave', startAutoPlay);
-
-  startAutoPlay();
-
+  /*
+    Research section carousels:
+    - 1 image: hide arrows.
+    - 2 or more images: show arrows and switch images.
+  */
   document.querySelectorAll('.research-carousel').forEach(function(carouselEl) {
     const track = carouselEl.querySelector('.research-carousel-track');
     const prev = carouselEl.querySelector('.research-carousel-prev');
     const next = carouselEl.querySelector('.research-carousel-next');
 
+    if (!track || !prev || !next) return;
+
     const originalSlides = Array.from(track.children);
     const total = originalSlides.length;
 
     if (total <= 1) {
-      if (prev) prev.style.display = 'none';
-      if (next) next.style.display = 'none';
+      prev.style.display = 'none';
+      next.style.display = 'none';
       return;
     }
+
+    prev.style.display = '';
+    next.style.display = '';
 
     const firstClone = originalSlides[0].cloneNode(true);
     const lastClone = originalSlides[total - 1].cloneNode(true);
@@ -333,7 +353,7 @@ document.addEventListener('DOMContentLoaded', function() {
     track.style.transition = 'none';
     track.style.transform = `translateX(-${index * 100}%)`;
 
-    function moveToCurrentIndex(withAnimation = true) {
+    function moveToCurrentIndex(withAnimation) {
       track.style.transition = withAnimation ? 'transform 0.5s ease-in-out' : 'none';
       track.style.transform = `translateX(-${index * 100}%)`;
     }
@@ -350,6 +370,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
       if (maxHeight > 0) {
         carouselEl.style.height = maxHeight + 'px';
+
         carouselEl.querySelectorAll('.research-carousel-slide').forEach(function(slide) {
           slide.style.height = maxHeight + 'px';
         });
@@ -362,6 +383,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
       function done() {
         loadedCount += 1;
+
         if (loadedCount === images.length) {
           setCarouselHeight();
         }
@@ -379,7 +401,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     next.addEventListener('click', function(e) {
       e.preventDefault();
+
       if (locked) return;
+
       locked = true;
       index += 1;
       moveToCurrentIndex(true);
@@ -387,7 +411,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     prev.addEventListener('click', function(e) {
       e.preventDefault();
+
       if (locked) return;
+
       locked = true;
       index -= 1;
       moveToCurrentIndex(true);
@@ -402,7 +428,7 @@ document.addEventListener('DOMContentLoaded', function() {
         moveToCurrentIndex(false);
       }
 
-      setTimeout(() => {
+      setTimeout(function() {
         locked = false;
       }, 20);
     });
