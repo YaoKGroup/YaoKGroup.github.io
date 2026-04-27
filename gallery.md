@@ -138,10 +138,6 @@ permalink: /gallery/
   <div class="gallery-grid" id="gallery-grid">
     <div class="gallery-item" data-category="research">
       <img src="{{ site.baseurl }}/assets/img/pi.jpg" alt="Who">
-      <div class="gallery-overlay">
-        <span class="overlay-title">Who</span>
-        <span class="overlay-desc"> </span>
-      </div>
     </div>
     <div class="gallery-item" data-category="moments">
       <img src="{{ site.baseurl }}/assets/img/darksister.jpeg" alt="Dark Sister">
