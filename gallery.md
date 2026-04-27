@@ -98,7 +98,7 @@ permalink: /gallery/
       color: #fff;
       padding: 20px 15px 10px 15px;
       opacity: 0;
-      transform: translateY(10px);
+      transform: translateY(6px);
       transition: all 0.3s ease;
       pointer-events: none;
       z-index: 2;
