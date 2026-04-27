@@ -25,8 +25,9 @@ permalink: /gallery/
       cursor: pointer;
       color: var(--ust-blue);
       padding: 5px 0;
-      transition: all 0.3s ease;
+      transition: color 0.2s ease;
       position: relative;
+      font-weight: 600;
     }
 
     #custom-gallery-container .filter-tag:hover,
@@ -35,17 +36,24 @@ permalink: /gallery/
     }
 
     #custom-gallery-container .filter-tag.active { 
-      font-weight: bold; 
+      font-weight: 600; 
     }
 
+    #custom-gallery-container .filter-tag::after {
+    content: '';
+    position: absolute;
+    bottom: -16px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: var(--gold);
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.2s ease;
+    }
+  
     #custom-gallery-container .filter-tag.active::after {
-      content: '';
-      position: absolute;
-      bottom: -16px;
-      left: 0;
-      width: 100%;
-      height: 3px;
-      background: var(--gold);
+      transform: scaleX(1);
     }
 
     #custom-gallery-container .gallery-grid {
