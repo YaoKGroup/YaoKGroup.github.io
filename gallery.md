@@ -96,9 +96,9 @@ permalink: /gallery/
       right: 0;
       background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0) 100%);
       color: #fff;
-      padding: 20px 15px 10px 15px;
+      padding: 15px 12px 8px 12px;
       opacity: 0;
-      transform: translateY(6px);
+      transform: translateY(5px);
       transition: all 0.3s ease;
       pointer-events: none;
       z-index: 2;
@@ -136,14 +136,14 @@ permalink: /gallery/
   </div>
 
   <div class="gallery-grid" id="gallery-grid">
-    <div class="gallery-item">
+    <div class="gallery-item" data-category="media">
       <img src="{{ site.baseurl }}/photos/media/arn.png" alt="arn">
       <div class="gallery-overlay">
         <span class="overlay-title">Asia Research News</span>
         <span class="overlay-desc">Ultrathin, wireless palm patch brings touch to virtual reality</span>
       </div>
     </div>
-    <div class="gallery-item">
+    <div class="gallery-item" data-category="media">
       <img src="{{ site.baseurl }}/photos/media/TVB.png" alt="arn">
       <div class="gallery-overlay">
         <span class="overlay-title">TVB HK</span>
