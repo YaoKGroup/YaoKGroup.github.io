@@ -1,6 +1,6 @@
 :root{
   /* Typography */
-  --site-font: "Muli", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --site-font: "Muli", "Mulish", "Helvetica Neue", Helvetica, Arial, sans-serif;
   --body-font: var(--site-font);
   --header-font: var(--site-font);
 
