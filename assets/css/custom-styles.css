@@ -583,3 +583,34 @@ summary:hover .pub-count {
 .carousel-control-next:hover {
   background: transparent !important;
 }
+
+
+/* Publication figures copied from the legacy publication page */
+.pub-images{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: flex-start;
+  margin-top: 0.85rem;
+}
+
+.pub-images img{
+  max-width: min(100%, 420px);
+  max-height: 280px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+  background: #fff;
+}
+
+@media (max-width: 768px){
+  .pub-images{
+    gap: 0.6rem;
+  }
+  .pub-images img{
+    max-width: 100%;
+    max-height: none;
+  }
+}
