@@ -1,4 +1,9 @@
 :root{
+  /* Typography */
+  --site-font: "Muli", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --body-font: var(--site-font);
+  --header-font: var(--site-font);
+
   /* Color Palette */
   --ust-blue: #003367;
   --blue-light: #E1F5FE;
@@ -10,10 +15,33 @@
 }
 
 /* Base typography */
+html,
+body,
+button,
+input,
+textarea,
+select{
+  font-family: var(--site-font) !important;
+}
+
 body{
-  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
   font-weight: 400;
   color: var(--text-main);
+}
+
+
+/* Keep theme components on the same CKRI-style typeface */
+.navbar,
+.navbar-custom,
+.intro-header,
+.site-footer,
+main,
+article,
+.page-heading,
+.post-heading,
+h1,h2,h3,h4,h5,h6,
+p,li,a,span,strong,em,small,summary,figcaption{
+  font-family: var(--site-font) !important;
 }
 
 /* Links */
@@ -27,7 +55,7 @@ a:hover,a:focus{ color: var(--gold); }
 .intro-header .page-heading h1,
 .intro-header .post-heading h1{
   color: var(--ust-blue) !important;
-  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;  /* TITLE FONT */
+  font-family: var(--site-font) !important;  /* TITLE FONT */
   font-weight: 500 !important;
   letter-spacing: 2.5px;
 }
@@ -41,7 +69,7 @@ a:hover,a:focus{ color: var(--gold); }
 .page-subheading{
   color: var(--gold) !important;
   /*font-family: 'Cutive Mono', cursive !important;*/  /* subtitle font */
-  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
+  font-family: var(--site-font) !important;
   font-size: 1rem !important;
   font-weight: 500 !important;
   line-height: 1.25 !important;
@@ -75,8 +103,8 @@ main h3{
 /* group name */
 .navbar .navbar-brand{
   color: #ffffff !important;
-  font-family: 'Kaushan Script', cursive !important; /* group name font */
-  font-weight: 350;
+  font-family: var(--site-font) !important; /* group name font */
+  font-weight: 600;
   font-size: 1.5rem !important;
   letter-spacing: 1px;
   display: inline-flex;
@@ -102,8 +130,8 @@ main h3{
 
 .navbar .navbar-nav .nav-link{
   color: #ffffff !important;
-  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important; /* nav font */
-  font-weight: 100;
+  font-family: var(--site-font) !important; /* nav font */
+  font-weight: 600;
   font-size: 1rem !important;
   letter-spacing: 0.5px;
   padding-top: 0.30rem;
