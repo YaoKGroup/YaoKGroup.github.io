@@ -153,15 +153,55 @@ main h3{
 
 @media (max-width: 1199.98px){
   .navbar{
+    flex-wrap: nowrap !important;
+    align-items: center;
+    min-height: 50px;
     padding-top: 0.18rem;
     padding-bottom: 0.18rem;
   }
+
+  .navbar .navbar-brand{
+    flex: 0 0 auto;
+    margin-right: 0.45rem;
+    white-space: nowrap;
+  }
+
+  .navbar .navbar-brand-logo{
+    height: 32px;
+    max-width: 78px;
+    margin-right: 0;
+    object-fit: contain;
+  }
+
+  .navbar .navbar-brand:nth-of-type(2){
+    flex: 1 1 auto;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: clamp(1.1rem, 5vw, 1.35rem) !important;
+  }
+
   .navbar .navbar-nav .nav-link{
     padding-top: 0.22rem;
     padding-bottom: 0.22rem;
   }
+
   .navbar .navbar-toggler{
+    order: 3;
+    flex: 0 0 auto;
+    margin-left: auto;
     padding: 0.12rem 0.42rem;
+  }
+
+  .navbar .navbar-collapse{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 !important;
+    padding: 0.45rem 1rem 0.65rem;
+    background: var(--ust-blue);
+    border-top: 1px solid rgba(255, 255, 255, 0.18);
   }
 }
 
@@ -743,5 +783,23 @@ summary:hover .pub-count {
     font-size: 0.86rem !important;
     line-height: 1.35 !important;
     letter-spacing: 1.4px !important;
+  }
+}
+
+@media (max-width: 768px){
+  .intro-header:not(.home-hero-header){
+    margin-top: 4.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .intro-header:not(.home-hero-header) .page-heading{
+    padding-top: 0.35rem;
+    padding-bottom: 0.35rem;
+  }
+
+  .intro-header:not(.home-hero-header) .page-heading h1{
+    font-size: 2rem !important;
+    line-height: 1.15 !important;
+    letter-spacing: 1.2px;
   }
 }
