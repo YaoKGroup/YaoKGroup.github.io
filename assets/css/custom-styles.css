@@ -687,3 +687,45 @@ summary:hover .pub-count {
     max-height: none;
   }
 }
+
+
+/* Home hero image */
+.intro-header.home-hero-header{
+  position: relative;
+  min-height: 340px;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('/assets/img/home/hkust-clear-water-bay-hero.jpg?v=20260507');
+  background-size: cover;
+  background-position: center center;
+}
+
+.intro-header.home-hero-header .container-md{
+  position: relative;
+  z-index: 1;
+}
+
+.intro-header.home-hero-header .page-heading{
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
+}
+
+.intro-header.home-hero-header .page-heading h1{
+  text-shadow: 0 1px 8px rgba(255, 255, 255, 0.75);
+}
+
+.intro-header.home-hero-header .page-subheading{
+  text-shadow: 0 1px 6px rgba(255, 255, 255, 0.75);
+}
+
+@media (max-width: 768px){
+  .intro-header.home-hero-header{
+    min-height: 280px;
+    background-position: center top;
+  }
+
+  .intro-header.home-hero-header .page-heading{
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+}
