@@ -693,7 +693,8 @@ summary:hover .pub-count {
 .intro-header.home-hero-header{
   margin-top: 0 !important;
   position: relative;
-  min-height: 340px;
+  aspect-ratio: 5999 / 2439;
+  min-height: 0;
   display: flex;
   align-items: center;
   background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('/assets/img/home/hkust-clear-water-bay-hero.jpg?v=20260507');
@@ -721,7 +722,8 @@ summary:hover .pub-count {
 
 @media (max-width: 768px){
   .intro-header.home-hero-header{
-    min-height: 280px;
+    aspect-ratio: 5999 / 2439;
+    min-height: 0;
     background-position: center top;
   }
 
