@@ -691,6 +691,7 @@ summary:hover .pub-count {
 
 /* Home hero image */
 .intro-header.home-hero-header{
+  margin-top: 0 !important;
   position: relative;
   min-height: 340px;
   display: flex;
