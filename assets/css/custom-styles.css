@@ -722,13 +722,26 @@ summary:hover .pub-count {
 
 @media (max-width: 768px){
   .intro-header.home-hero-header{
-    aspect-ratio: 5999 / 2439;
-    min-height: 0;
+    aspect-ratio: auto;
+    min-height: 360px;
+    align-items: flex-start;
     background-position: center top;
   }
 
   .intro-header.home-hero-header .page-heading{
-    padding-top: 3.5rem;
-    padding-bottom: 3.5rem;
+    padding-top: 7.25rem;
+    padding-bottom: 2.75rem;
+  }
+
+  .intro-header.home-hero-header .page-heading h1{
+    font-size: 1.85rem !important;
+    line-height: 1.18 !important;
+    letter-spacing: 1.2px;
+  }
+
+  .intro-header.home-hero-header .page-subheading{
+    font-size: 0.86rem !important;
+    line-height: 1.35 !important;
+    letter-spacing: 1.4px !important;
   }
 }
