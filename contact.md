@@ -14,6 +14,7 @@ permalink: /contact/
       <p style="margin-top: 0; color: #2F6FA8; line-height: 1.6; font-style: normal; font-family: inherit;">
         Division of Integrative Systems and Design<br>
         Cheng Kar-Shun Robotics Institute<br>
+        HKUST Shenzhen–Hong Kong Collaborative Innovation Research Institute<br>
         The Hong Kong University of Science and Technology,<br>Hong Kong
       </p>
     </div>
