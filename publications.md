@@ -184,3 +184,5 @@ permalink: /publications/
 
   </div>
 </details>
+
+<script src="{{ '/assets/js/scholar-citations.js' | relative_url }}?v=20260609" defer></script>

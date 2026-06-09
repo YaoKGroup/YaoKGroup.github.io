@@ -803,3 +803,43 @@ summary:hover .pub-count {
     letter-spacing: 1.2px;
   }
 }
+
+/* Google Scholar citation badges */
+.scholar-citation-badge{
+  display: inline-flex;
+  align-items: center;
+  margin-left: 0.45rem;
+  margin-top: 0.2rem;
+  padding: 0.12rem 0.42rem;
+  border: 1px solid rgba(0, 51, 103, 0.28);
+  border-radius: 999px;
+  background: rgba(225, 245, 254, 0.72);
+  color: var(--ust-blue);
+  font-size: 0.78rem;
+  font-weight: 600;
+  line-height: 1.35;
+  white-space: nowrap;
+  text-decoration: none !important;
+  vertical-align: 0.08em;
+}
+
+.scholar-citation-badge:hover,
+.scholar-citation-badge:focus{
+  color: #ffffff;
+  background: var(--ust-blue);
+  border-color: var(--ust-blue);
+}
+
+.scholar-citation-badge.is-missing{
+  color: #6b7280;
+  border-color: rgba(107, 114, 128, 0.28);
+  background: rgba(243, 244, 246, 0.86);
+}
+
+@media (max-width: 768px){
+  .scholar-citation-badge{
+    margin-left: 0;
+    margin-right: 0.35rem;
+    white-space: normal;
+  }
+}
