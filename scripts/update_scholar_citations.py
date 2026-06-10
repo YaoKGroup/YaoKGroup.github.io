@@ -114,7 +114,18 @@ def best_match(site_title: str, scholar_entries: dict[str, dict]) -> tuple[dict 
 
 def main() -> int:
     scholar_id = get_scholar_id()
-    scholar_entries = scholar_publications(scholar_id)
+    try:
+        scholar_entries = scholar_publications(scholar_id)
+    except Exception as exc:
+        print(
+            "::warning title=Google Scholar fetch failed::"
+            f"Could not fetch Google Scholar data ({type(exc).__name__}: {exc}). "
+            "Keeping the existing citation data."
+        )
+        if OUTPUT_PATH.exists():
+            return 0
+        raise
+
     site_entries: dict[str, dict] = {}
 
     matched = 0
