@@ -143,12 +143,12 @@ main h3{
 .navbar .navbar-nav .nav-link:focus{
   background-color: transparent !important;
   color: var(--gold-accent) !important;
+  font-weight: 600;
 }
 
 .navbar .navbar-nav .active > .nav-link{
   background-color: transparent !important;
   color: var(--gold-accent) !important;
-  font-weight: 600;
   border-bottom: 2px solid var(--gold-accent);
 }
 
