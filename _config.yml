@@ -17,6 +17,14 @@ navbar-links:
   Gallery: "gallery"
   Contact: "contact"
 
+navbar-links-zh:
+  首页: ""
+  研究方向: "research"
+  成员: "members"
+  论文发表: "publications"
+  相册: "gallery"
+  联系我们: "contact"
+
 # footer links
 social-network-links:
   google-scholar: "https://scholar.google.com/citations?user=dthwMXwAAAAJ&hl=en&oi=ao"

@@ -1,6 +1,6 @@
 :root{
   /* Typography */
-  --site-font: "Muli", "Mulish", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --site-font: "Muli", "Mulish", "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", "Helvetica Neue", Helvetica, Arial, sans-serif;
   --body-font: var(--site-font);
   --header-font: var(--site-font);
 
@@ -842,5 +842,29 @@ summary:hover .pub-count {
     margin-left: 0;
     margin-right: 0.35rem;
     white-space: normal;
+  }
+}
+
+/* Language switch */
+.language-switch-link{
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  border-radius: 999px;
+  padding-left: 0.65rem !important;
+  padding-right: 0.65rem !important;
+  margin-left: 0.45rem;
+  line-height: 1.1rem !important;
+}
+
+.language-switch-link:hover,
+.language-switch-link:focus{
+  border-color: var(--gold-accent);
+}
+
+@media (max-width: 1199.98px){
+  .language-switch-link{
+    display: inline-flex;
+    width: auto;
+    margin-left: 0;
+    margin-top: 0.25rem;
   }
 }

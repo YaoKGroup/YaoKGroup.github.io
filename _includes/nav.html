@@ -1,4 +1,9 @@
 <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-regular">
+  {% assign is_zh = false %}
+  {% if page.lang == "zh" or page.url contains "/zh/" %}
+    {% assign is_zh = true %}
+  {% endif %}
+
   <a class="navbar-brand" href="https://hkust.edu.hk/" aria-label="HKUST website">
     <img
       src="{{ '/assets/img/hkustLogo.png' | relative_url }}"
@@ -7,7 +12,7 @@
     >
   </a>
 
-  <a class="navbar-brand" href="{{ '/' | relative_url }}">
+  <a class="navbar-brand" href="{% if is_zh %}{{ '/zh/' | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}">
     {{ site.title }}
   </a>
 
@@ -18,20 +23,58 @@
 
   <div class="collapse navbar-collapse" id="main-navbar">
     <ul class="navbar-nav ml-auto">
-      {% for item in site.navbar-links %}
+      {% if is_zh %}
+        {% assign nav_links = site.navbar-links-zh %}
+      {% else %}
+        {% assign nav_links = site.navbar-links %}
+      {% endif %}
+
+      {% for item in nav_links %}
         {% assign text = item[0] %}
         {% assign link = item[1] %}
 
-        {% if link == "" %}
-          {% assign href = '/' | relative_url %}
+        {% if is_zh %}
+          {% if link == "" %}
+            {% assign href = '/zh/' | relative_url %}
+          {% else %}
+            {% assign href = link | prepend: '/zh/' | relative_url %}
+          {% endif %}
         {% else %}
-          {% assign href = link | prepend: '/' | relative_url %}
+          {% if link == "" %}
+            {% assign href = '/' | relative_url %}
+          {% else %}
+            {% assign href = link | prepend: '/' | relative_url %}
+          {% endif %}
         {% endif %}
 
         <li class="nav-item">
           <a class="nav-link" href="{{ href }}">{{ text }}</a>
         </li>
       {% endfor %}
+
+      {% if is_zh %}
+        {% if page.en_url %}
+          {% assign switch_href = page.en_url | relative_url %}
+        {% elsif page.url == "/zh/" %}
+          {% assign switch_href = '/' | relative_url %}
+        {% else %}
+          {% assign switch_href = page.url | remove_first: '/zh' | relative_url %}
+        {% endif %}
+        <li class="nav-item language-switch-item">
+          <a class="nav-link language-switch-link" href="{{ switch_href }}">English</a>
+        </li>
+      {% else %}
+        {% if page.zh_url %}
+          {% assign switch_href = page.zh_url | relative_url %}
+        {% elsif page.url == "/" %}
+          {% assign switch_href = '/zh/' | relative_url %}
+        {% else %}
+          {% assign switch_href = page.url | prepend: '/zh' | relative_url %}
+        {% endif %}
+        <li class="nav-item language-switch-item">
+          <a class="nav-link language-switch-link" href="{{ switch_href }}">中</a>
+        </li>
+      {% endif %}
     </ul>
   </div>
 </nav>
