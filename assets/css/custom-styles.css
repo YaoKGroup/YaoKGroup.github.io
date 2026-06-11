@@ -131,7 +131,7 @@ main h3{
 .navbar .navbar-nav .nav-link{
   color: #ffffff !important;
   font-family: var(--site-font) !important; /* nav font */
-  font-weight: 600;
+  font-weight: 500;
   font-size: 1rem !important;
   letter-spacing: 0.5px;
   padding-top: 0.30rem;
@@ -148,6 +148,7 @@ main h3{
 .navbar .navbar-nav .active > .nav-link{
   background-color: transparent !important;
   color: var(--gold-accent) !important;
+  font-weight: 600;
   border-bottom: 2px solid var(--gold-accent);
 }
 
