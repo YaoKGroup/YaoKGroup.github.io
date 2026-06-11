@@ -2,7 +2,7 @@
 layout: home
 title: "生物电子赋能感知<br>&amp; 健康智能"
 browser_title: "生物电子赋能感知与健康智能"
-subtitle: " 香港科技大学 • 融合学科部"
+subtitle: " 香港科技大学 • 综合系统与设计系"
 permalink: /zh/
 lang: zh
 en_url: /
@@ -14,9 +14,9 @@ en_url: /
   <article class="home-news-item">
     <div class="home-news-copy">
       <time datetime="2026-04-30">2026年4月30日</time>
-      <p>姚博士受邀在香港科技大学融合学科部作学术报告。</p>
+      <p>姚博士受邀在香港科技大学综合系统与设计系作学术报告。</p>
     </div>
-    <img src="/assets/img/news/2026-isd-seminar.png?v=20260507" alt="姚宽明教授在香港科技大学融合学科部学术报告海报">
+    <img src="/assets/img/news/2026-isd-seminar.png?v=20260507" alt="姚宽明教授在香港科技大学综合系统与设计系学术报告海报">
   </article>
 
   <article class="home-news-item">
