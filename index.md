@@ -1,6 +1,7 @@
 ---
 layout: home
 title: "Bioelectronics Enabling Sensory<br>&amp; Health Intelligence"
+browser_title: "Bioelectronics Enabling Sensory & Health Intelligence"
 subtitle: " HKUST • Division of Integrative Systems and Design"
 ---
 

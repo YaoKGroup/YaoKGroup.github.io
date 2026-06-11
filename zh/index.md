@@ -1,6 +1,7 @@
 ---
 layout: home
 title: "生物电子赋能感知<br>&amp; 健康智能"
+browser_title: "生物电子赋能感知与健康智能"
 subtitle: " 香港科技大学 • 融合学科部"
 permalink: /zh/
 lang: zh

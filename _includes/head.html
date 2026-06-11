@@ -5,6 +5,8 @@
   <title>
     {%- if page.url == "/" -%}
       {{ site.title }}
+    {%- elsif page.browser_title -%}
+      {{ site.short-title }} - {{ page.browser_title }}
     {%- elsif page.title -%}
       {{ site.short-title }} - {{ page.title }}
     {%- else -%}
