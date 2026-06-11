@@ -15,7 +15,7 @@ en_url: /contact/
       
       <p style="margin-top: 0; color: #2F6FA8; line-height: 1.6; font-style: normal; font-family: inherit;">
         综合系统与设计系<br>
-        郑家纯机器人研究所<br>
+        郑家纯机器人研究院<br>
         香港科技大学深港协同创新研究院<br>
         香港科技大学<br>中国香港
       </p>
