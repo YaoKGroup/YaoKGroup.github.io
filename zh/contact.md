@@ -14,9 +14,9 @@ en_url: /contact/
       <div style="margin-bottom: 5px; font-size: 1.5em; color: #2F6FA8; font-family: inherit;">姚宽明教授</div>
       
       <p style="margin-top: 0; color: #2F6FA8; line-height: 1.6; font-style: normal; font-family: inherit;">
-        融合学科部<br>
+        综合系统与设计系<br>
         郑家纯机器人研究所<br>
-        港科深港协同创新研究院<br>
+        香港科技大学深港协同创新研究院<br>
         香港科技大学<br>中国香港
       </p>
     </div>
