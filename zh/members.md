@@ -22,7 +22,7 @@ en_url: /members/
       <ul class="pi-cv">
         <li>
           <strong>助理教授</strong> <span class="pi-date">（2026年4月至今）</span><br>
-          融合学科部<br>
+          综合系统与设计系<br>
           香港科技大学，香港
         </li>
         
@@ -71,11 +71,11 @@ en_url: /members/
 
 ---
 
-## 博士生
+## 博士研究生
 
 <div class="member-grid">
   <div class="member-card">
-    <img class="member-photo" src="{{ '/assets/img/placeholder-member.jpg' | relative_url }}" alt="博士生 1">
+    <img class="member-photo" src="{{ '/assets/img/placeholder-member.jpg' | relative_url }}" alt="博士研究生 1">
     <div class="member-info">
       <div class="member-name">LAN</div>
       <div class="member-line">2026年4月至今</div>
