@@ -161,8 +161,8 @@ permalink: /gallery/
     <div class="gallery-item" data-category="captures">
       <img src="{{ site.baseurl }}/photos/cpt/YKM1216.jpg" alt="YKM1216">
     </div>
-        <div class="gallery-item" data-category="captures">
-      <img src="{{ site.baseurl }}/photos/cpt/YKM240919.jpg" alt="YKM240919">
+    <div class="gallery-item" data-category="moments">
+      <img src="{{ site.baseurl }}/photos/moments/260516.jpeg" alt="260516">
     </div>
     <div class="gallery-item" data-category="captures">
       <img src="{{ site.baseurl }}/photos/cpt/YKM1514.jpg" alt="YKM1514">
@@ -170,8 +170,8 @@ permalink: /gallery/
     <div class="gallery-item" data-category="captures">
       <img src="{{ site.baseurl }}/photos/cpt/YKM1231.jpg" alt="YKM1231">
     </div>
-    <div class="gallery-item" data-category="moments">
-      <img src="{{ site.baseurl }}/photos/moments/260516.jpeg" alt="260516">
+    <div class="gallery-item" data-category="captures">
+      <img src="{{ site.baseurl }}/photos/cpt/YKM240919.jpg" alt="YKM240919">
     </div>
   </div>
 
