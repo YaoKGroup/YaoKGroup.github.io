@@ -149,7 +149,7 @@ permalink: /gallery/
       </div>
     </div>
     <div class="gallery-item" data-category="media">
-      <img src="{{ site.baseurl }}/photos/media/TVB.png" alt="arn">
+      <img src="{{ site.baseurl }}/photos/media/TVB.png" alt="tvb">
       <div class="gallery-overlay">
         <span class="overlay-title">TVB HK</span>
         <span class="overlay-desc">城大研發電子皮膚觸感反饋技術 冀提升虛擬實境體驗</span>
@@ -163,6 +163,9 @@ permalink: /gallery/
     </div>
     <div class="gallery-item" data-category="moments">
       <img src="{{ site.baseurl }}/photos/moments/260516.jpeg" alt="260516">
+      <div class="gallery-overlay">
+        <span class="overlay-desc">Dinner at 南北小廚</span>
+      </div>
     </div>
     <div class="gallery-item" data-category="captures">
       <img src="{{ site.baseurl }}/photos/cpt/YKM1514.jpg" alt="YKM1514">
