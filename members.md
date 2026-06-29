@@ -90,7 +90,7 @@ permalink: /members/
     <div class="member-info">
       <div class="member-name">ZHANG Xiaowen</div>
       <div class="member-line">Incoming (9. 2026-)</div>
-      <div class="member-line">B.Eng., Harbin Institute of Technology</div>
+      <div class="member-line">B.Eng., Harbin Institute of Technology, Shenzhen</div>
     </div>
   </div>
 
