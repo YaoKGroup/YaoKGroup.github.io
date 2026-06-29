@@ -404,7 +404,9 @@ footer,
 }
 
 .member-name{
-  font-weight: 700;
+  color: var(--ust-blue);
+  font-size: 1.08rem;
+  font-weight: 800;
   line-height: 1.2;
 }
 

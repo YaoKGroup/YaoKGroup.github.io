@@ -60,7 +60,7 @@ permalink: /members/
   <div class="member-card">
     <img class="member-photo" src="{{ '/assets/img/members/chen-gangsheng.jpg' | relative_url }}?v=20260629" alt="CHEN Gangsheng">
     <div class="member-info">
-      <div class="member-name">CHEN Gangsheng</div>
+      <div class="member-name">Dr. CHEN Gangsheng</div>
       <div class="member-line">Incoming (8. 2026-)</div>
       <div class="member-line">Ph.D., Southeast University</div>
       <div class="member-line">M.S., Southeast University</div>
