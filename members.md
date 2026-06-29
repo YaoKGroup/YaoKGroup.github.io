@@ -58,10 +58,11 @@ permalink: /members/
 
 <div class="member-grid">
   <div class="member-card">
-    <img class="member-photo" src="{{ '/assets/img/placeholder-member.jpg' | relative_url }}" alt="Postdoc 1">
+    <img class="member-photo" src="{{ '/assets/img/members/chen-gangsheng.jpg' | relative_url }}?v=20260629" alt="CHEN Gangsheng">
     <div class="member-info">
-      <div class="member-name">Name</div>
-      <div class="member-line"> -</div>
+      <div class="member-name">CHEN Gangsheng</div>
+      <div class="member-line">Incoming Postdoc</div>
+      <div class="member-line">B.Eng., M.S., Ph.D., Southeast University</div>
     </div>
   </div>
 
@@ -73,10 +74,21 @@ permalink: /members/
 
 <div class="member-grid">
   <div class="member-card">
-    <img class="member-photo" src="{{ '/assets/img/placeholder-member.jpg' | relative_url }}" alt="PhD 1">
+    <img class="member-photo" src="{{ '/assets/img/members/lan-yunting.jpg' | relative_url }}?v=20260629" alt="LAN Yunting">
     <div class="member-info">
-      <div class="member-name">LAN</div>
-      <div class="member-line">Apr. 2026-</div>
+      <div class="member-name">LAN Yunting</div>
+      <div class="member-line">Incoming PhD student</div>
+      <div class="member-line">B.S., South China Agricultural University</div>
+      <div class="member-line">M.S., Southern University of Science and Technology</div>
+    </div>
+  </div>
+
+  <div class="member-card">
+    <img class="member-photo" src="{{ '/assets/img/members/zhang-xiaowen.jpg' | relative_url }}?v=20260629" alt="ZHANG Xiaowen">
+    <div class="member-info">
+      <div class="member-name">ZHANG Xiaowen</div>
+      <div class="member-line">Incoming PhD student</div>
+      <div class="member-line">B.Eng., Harbin Institute of Technology</div>
     </div>
   </div>
 

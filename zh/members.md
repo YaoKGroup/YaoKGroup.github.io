@@ -60,10 +60,11 @@ en_url: /members/
 
 <div class="member-grid">
   <div class="member-card">
-    <img class="member-photo" src="{{ '/assets/img/placeholder-member.jpg' | relative_url }}" alt="博士后 1">
+    <img class="member-photo" src="{{ '/assets/img/members/chen-gangsheng.jpg' | relative_url }}?v=20260629" alt="CHEN Gangsheng">
     <div class="member-info">
-      <div class="member-name">姓名</div>
-      <div class="member-line"> -</div>
+      <div class="member-name">CHEN Gangsheng</div>
+      <div class="member-line">拟入职博士后</div>
+      <div class="member-line">本科、硕士、博士：东南大学</div>
     </div>
   </div>
 
@@ -75,10 +76,21 @@ en_url: /members/
 
 <div class="member-grid">
   <div class="member-card">
-    <img class="member-photo" src="{{ '/assets/img/placeholder-member.jpg' | relative_url }}" alt="博士研究生 1">
+    <img class="member-photo" src="{{ '/assets/img/members/lan-yunting.jpg' | relative_url }}?v=20260629" alt="LAN Yunting">
     <div class="member-info">
-      <div class="member-name">LAN</div>
-      <div class="member-line">2026年4月至今</div>
+      <div class="member-name">LAN Yunting</div>
+      <div class="member-line">拟入学博士研究生</div>
+      <div class="member-line">本科：华南农业大学</div>
+      <div class="member-line">硕士：南方科技大学</div>
+    </div>
+  </div>
+
+  <div class="member-card">
+    <img class="member-photo" src="{{ '/assets/img/members/zhang-xiaowen.jpg' | relative_url }}?v=20260629" alt="ZHANG Xiaowen">
+    <div class="member-info">
+      <div class="member-name">ZHANG Xiaowen</div>
+      <div class="member-line">拟入学博士研究生</div>
+      <div class="member-line">本科：哈尔滨工业大学</div>
     </div>
   </div>
 
