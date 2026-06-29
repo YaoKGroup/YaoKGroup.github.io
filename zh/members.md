@@ -62,7 +62,7 @@ en_url: /members/
   <div class="member-card">
     <img class="member-photo" src="{{ '/assets/img/members/chen-gangsheng.jpg' | relative_url }}?v=20260629" alt="CHEN Gangsheng">
     <div class="member-info">
-      <div class="member-name">Dr. CHEN Gangsheng</div>
+      <div class="member-name">Dr. CHEN Gangsheng（陈刚胜）</div>
       <div class="member-line">Incoming (8. 2026-)</div>
       <div class="member-line">博士：东南大学</div>
       <div class="member-line">硕士：东南大学</div>
@@ -80,7 +80,7 @@ en_url: /members/
   <div class="member-card">
     <img class="member-photo" src="{{ '/assets/img/members/lan-yunting.jpg' | relative_url }}?v=20260629" alt="LAN Yunting">
     <div class="member-info">
-      <div class="member-name">LAN Yunting</div>
+      <div class="member-name">LAN Yunting（蓝蕴婷）</div>
       <div class="member-line">Incoming (9. 2026-)</div>
       <div class="member-line">硕士：南方科技大学</div>
       <div class="member-line">本科：华南农业大学</div>
@@ -90,7 +90,7 @@ en_url: /members/
   <div class="member-card">
     <img class="member-photo" src="{{ '/assets/img/members/zhang-xiaowen.jpg' | relative_url }}?v=20260629" alt="ZHANG Xiaowen">
     <div class="member-info">
-      <div class="member-name">ZHANG Xiaowen</div>
+      <div class="member-name">ZHANG Xiaowen（张晓雯）</div>
       <div class="member-line">Incoming (9. 2026-)</div>
       <div class="member-line">本科：哈尔滨工业大学（深圳）</div>
     </div>
