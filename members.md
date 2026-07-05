@@ -80,7 +80,7 @@ permalink: /members/
     <div class="member-info">
       <div class="member-name">LAN Yunting</div>
       <div class="member-line">Incoming (9. 2026-)</div>
-      <div class="member-line">M.Eng., Southern University of Science and Technology</div>
+      <div class="member-line">M.S., Southern University of Science and Technology</div>
       <div class="member-line">B.Eng., South China Agricultural University</div>
     </div>
   </div>
