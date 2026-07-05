@@ -10,7 +10,7 @@ permalink: /members/
 <div class="pi-center">
   <div class="pi-grid">
     <div class="pi-photo-wrap">
-      <h3 class="pi-name-incol">Dr. Kuanming Yao</h3>
+      <h3 class="pi-name-incol">Dr. YAO Kuanming</h3>
 
       <img class="pi-photo" src="{{ '/photos/member/yao.jpg' | relative_url }}" alt="PI photo">
 
@@ -80,8 +80,8 @@ permalink: /members/
     <div class="member-info">
       <div class="member-name">LAN Yunting</div>
       <div class="member-line">Incoming (9. 2026-)</div>
-      <div class="member-line">M.S., Southern University of Science and Technology</div>
-      <div class="member-line">B.S., South China Agricultural University</div>
+      <div class="member-line">M.Eng., Southern University of Science and Technology</div>
+      <div class="member-line">B.Eng., South China Agricultural University</div>
     </div>
   </div>
 
