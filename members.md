@@ -65,6 +65,7 @@ permalink: /members/
       <div class="member-line">Ph.D., Southeast University</div>
       <div class="member-line">M.S., Southeast University</div>
       <div class="member-line">B.Eng., Southeast University</div>
+      <div class="member-line">Email: gangsheng[at]ust.hk</div>
     </div>
   </div>
 
@@ -82,6 +83,7 @@ permalink: /members/
       <div class="member-line">Incoming (9. 2026-)</div>
       <div class="member-line">M.S., Southern University of Science and Technology</div>
       <div class="member-line">B.Eng., South China Agricultural University</div>
+      <div class="member-line">Email: ylanaj[at]connect.ust.hk</div>
     </div>
   </div>
 
@@ -91,6 +93,7 @@ permalink: /members/
       <div class="member-name">ZHANG Xiaowen</div>
       <div class="member-line">Incoming (9. 2026-)</div>
       <div class="member-line">B.Eng., Harbin Institute of Technology, Shenzhen</div>
+      <div class="member-line">Email: xwen.zhang[at]connect.ust.hk</div>
     </div>
   </div>
 
