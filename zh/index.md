@@ -13,6 +13,14 @@ en_url: /
 
   <article class="home-news-item">
     <div class="home-news-copy">
+      <time datetime="2026-08-04">2026年8月4日</time>
+      <p>姚博士受邀在复旦大学纤维电子材料与器件研究院作学术报告。感谢黄雅教授的邀请！</p>
+    </div>
+    <img src="/assets/img/news/2026-fudan-invited-talk.jpg?v=20260804" alt="姚宽明博士复旦大学邀请报告海报">
+  </article>
+
+  <article class="home-news-item">
+    <div class="home-news-copy">
       <time datetime="2026-04-30">2026年4月30日</time>
       <p>姚博士受邀在香港科技大学综合系统与设计系作学术报告。</p>
     </div>
