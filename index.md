@@ -11,7 +11,7 @@ subtitle: " HKUST • Division of Integrative Systems and Design"
   <article class="home-news-item">
     <div class="home-news-copy">
       <time datetime="2026-08-04">4. Aug. 2026</time>
-      <p>Dr. Yao was invited to give a seminar talk at the Institute of Fiber Electronics Materials and Devices, Fudan University. Many thanks for the invitation from Prof. Ya Huang!</p>
+      <p>Dr. Yao was invited to give a seminar talk at the Institute of Fiber Materials and Devices, Fudan University. Many thanks for the invitation from Prof. Ya Huang!</p>
     </div>
     <img src="/assets/img/news/2026-fudan-invited-talk.jpg?v=20260804" alt="Fudan University invited talk poster for Dr. Kuanming Yao">
   </article>
