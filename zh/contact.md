@@ -44,3 +44,11 @@ en_url: /contact/
   </div>
 
 </div>
+
+<section class="contact-recruitment" style="margin-top: 2.2rem; line-height: 1.7; font-family: inherit;">
+  <h2 style="color: #2F6FA8; font-size: 1.5em; margin-bottom: 0.7rem; font-family: inherit;">招生与招聘</h2>
+  <p>课题组目前预计 2027 年秋季暂无博士生招生名额。后续机会请关注主页更新；如研究兴趣契合，也欢迎联系 PI。</p>
+  <p>欢迎自费学生、访问学生、博士后及研究助理与我们联系。</p>
+  <p><strong>说明：</strong>如申请材料进入进一步考虑，申请人将在三个工作日内收到回复。由于咨询量较大且 PI 日程繁忙，未能逐一回复所有申请者，敬请谅解。感谢理解。</p>
+</section>
+
