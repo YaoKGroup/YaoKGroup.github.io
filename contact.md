@@ -46,7 +46,7 @@ permalink: /contact/
 <section class="contact-recruitment" style="margin-top: 2.2rem; line-height: 1.7; font-family: inherit;">
   <h2 style="color: #2F6FA8; font-size: 1.5em; margin-bottom: 0.7rem; font-family: inherit;">Recruitment</h2>
   <p>We currently do not anticipate PhD openings for Fall 2027. Please stay tuned for future opportunities, and feel free to contact the PI if your interests align with the group.</p>
-  <p>We welcome inquiries from self-funded or visiting students, postdoctoral fellows, and research assistants.</p>
+  <p>We welcome inquiries from self-funded or visiting students, postdoctoral fellows, and research assistants. Exceptionally strong and eligible candidates may also be considered for the Hong Kong PhD Fellowship Scheme (HKPFS).</p>
   <p><strong>Disclaimer:</strong> Applicants whose materials will be considered can expect a reply within three working days. Due to the volume of inquiries and the PI's schedule, we may not be able to respond to every applicant. Thank you very much for your understanding.</p>
 </section>
 
