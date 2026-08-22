@@ -13,6 +13,14 @@ en_url: /
 
   <article class="home-news-item">
     <div class="home-news-copy">
+      <time datetime="2026-08-04">2026年8月4-6日</time>
+      <p>姚博士受邀在第七届柔性电子国际会议作邀请报告。</p>
+    </div>
+    <img src="/assets/img/news/2026-icfe-invited-speaker.jpg?v=20260822" alt="姚宽明博士第七届柔性电子国际会议邀请报告证书">
+  </article>
+
+  <article class="home-news-item">
+    <div class="home-news-copy">
       <time datetime="2026-08-04">2026年8月4日</time>
       <p>姚博士受邀在复旦大学纤维电子材料与器件研究院作学术报告。感谢黄雅教授的邀请！</p>
     </div>

@@ -141,6 +141,13 @@ permalink: /gallery/
   </div>
 
   <div class="gallery-grid" id="gallery-grid">
+    <div class="gallery-item" data-category="moments">
+      <img src="{{ site.baseurl }}/photos/moments/2026-group-photo.jpg?v=20260822" alt="YAO Research Group photo">
+      <div class="gallery-overlay">
+        <span class="overlay-title">Group Photo</span>
+        <span class="overlay-desc">YAO Research Group gathering</span>
+      </div>
+    </div>
     <div class="gallery-item" data-category="media">
       <img src="{{ site.baseurl }}/photos/media/arn.png" alt="arn">
       <div class="gallery-overlay">

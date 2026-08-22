@@ -37,6 +37,13 @@ en_url: /gallery/
   </div>
 
   <div class="gallery-grid" id="gallery-grid">
+    <div class="gallery-item" data-category="moments">
+      <img src="{{ site.baseurl }}/photos/moments/2026-group-photo.jpg?v=20260822" alt="YAO课题组合影">
+      <div class="gallery-overlay">
+        <span class="overlay-title">课题组合影</span>
+        <span class="overlay-desc">YAO Research Group 聚会留影</span>
+      </div>
+    </div>
     <div class="gallery-item" data-category="media">
       <img src="{{ site.baseurl }}/photos/media/arn.png" alt="Asia Research News">
       <div class="gallery-overlay">
