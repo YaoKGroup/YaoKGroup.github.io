@@ -77,7 +77,7 @@ permalink: /members/
 
 <div class="member-grid">
   <div class="member-card">
-    <img class="member-photo" src="{{ '/photos/member/lan.jpg' | relative_url }}?v=20260629" alt="LAN Yunting">
+    <img class="member-photo" src="{{ '/photos/member/lan.png' | relative_url }}?v=20260629" alt="LAN Yunting">
     <div class="member-info">
       <div class="member-name">LAN Yunting</div>
       <div class="member-line">9. 2026-</div>
