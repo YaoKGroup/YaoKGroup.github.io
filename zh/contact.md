@@ -16,6 +16,7 @@ en_url: /contact/
       <p style="margin-top: 0; color: #2F6FA8; line-height: 1.6; font-style: normal; font-family: inherit;">
         综合系统与设计系<br>
         材料系<br>
+        智能制造中心<br>
         郑家纯机器人研究院<br>
         香港科技大学深港协同创新研究院<br>
         香港科技大学<br>中国香港
@@ -23,7 +24,7 @@ en_url: /contact/
     </div>
 
     <ul style="list-style: none; padding-left: 0; line-height: 2; margin-top: 20px; font-family: inherit;">
-      <li><strong>办公室：</strong> 香港科技大学学术大楼 4339 室</li>
+      <li><strong>办公室：</strong> 香港科技大学学术大楼 5330 室</li>
       <li><strong>电话：</strong> +852 34693381</li>
       <li><strong>邮箱：</strong> kuanming[at]ust.hk</li>
     </ul>

@@ -11,6 +11,13 @@ en_url: /
 <section class="home-news">
   <h2>新闻</h2>
 
+  <article class="home-news-item home-news-item--text-only">
+    <div class="home-news-copy">
+      <time datetime="2026-08-25">2026年8月25日</time>
+      <p>姚博士获任智能制造中心副主任。</p>
+    </div>
+  </article>
+
   <article class="home-news-item">
     <div class="home-news-copy">
       <time datetime="2026-08-04">2026年8月4-6日</time>

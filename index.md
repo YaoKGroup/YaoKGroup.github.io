@@ -8,6 +8,13 @@ subtitle: " HKUST • Division of Integrative Systems and Design"
 <section class="home-news">
   <h2>News</h2>
 
+  <article class="home-news-item home-news-item--text-only">
+    <div class="home-news-copy">
+      <time datetime="2026-08-25">25. Aug. 2026</time>
+      <p>Dr. Yao was appointed as the Associate Director of the Center for Smart Manufacturing.</p>
+    </div>
+  </article>
+
   <article class="home-news-item">
     <div class="home-news-copy">
       <time datetime="2026-08-04">4-6. Aug. 2026</time>

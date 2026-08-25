@@ -14,6 +14,7 @@ permalink: /contact/
       <p style="margin-top: 0; color: #2F6FA8; line-height: 1.6; font-style: normal; font-family: inherit;">
         Division of Integrative Systems and Design<br>
         Department of Materials<br>
+        Center for Smart Manufacturing<br>
         Cheng Kar-Shun Robotics Institute<br>
         HKUST Shenzhen–Hong Kong Collaborative Innovation Research Institute<br>
         The Hong Kong University of Science and Technology,<br>Hong Kong
@@ -21,7 +22,7 @@ permalink: /contact/
     </div>
 
     <ul style="list-style: none; padding-left: 0; line-height: 2; margin-top: 20px; font-family: inherit;">
-      <li><strong>Office:</strong> Room 4339, Academic Building</li>
+      <li><strong>Office:</strong> Room 5330, Academic Building</li>
       <li><strong>Phone:</strong> +852 34693381</li>
       <li><strong>Email:</strong> kuanming[at]ust.hk</li>
     </ul>
