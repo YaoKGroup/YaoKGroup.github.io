@@ -142,6 +142,20 @@ permalink: /gallery/
 
   <div class="gallery-grid" id="gallery-grid">
     <div class="gallery-item" data-category="moments">
+      <img src="{{ site.baseurl }}/photos/moments/260827 ISD ori" alt="260827">
+      <div class="gallery-overlay">
+        <span class="overlay-title">ISD orientation</span>
+        <span class="overlay-desc">Prof. Yao takes the stage to introduce himself.</span>
+      </div>
+    </div>
+    <div class="gallery-item" data-category="moments">
+      <img src="{{ site.baseurl }}/photos/moments/260825 RI lecture" alt="260825">
+      <div class="gallery-overlay">
+        <span class="overlay-title">CKSRI Seminar Series</span>
+        <span class="overlay-desc">Soft Electronic Systems for Haptics, RoboticsSensing and Healthcare</span>
+      </div>
+    </div>
+    <div class="gallery-item" data-category="moments">
       <img src="{{ site.baseurl }}/photos/moments/2026-group-photo.jpg?v=20260822" alt="YAO Research Group photo">
       <div class="gallery-overlay">
         <span class="overlay-title">Group Photo</span>
