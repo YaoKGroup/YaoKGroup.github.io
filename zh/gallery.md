@@ -38,10 +38,24 @@ en_url: /gallery/
 
   <div class="gallery-grid" id="gallery-grid">
     <div class="gallery-item" data-category="moments">
+      <img src="{{ site.baseurl }}/photos/moments/260827 ISD ori.jpg" alt="260827">
+      <div class="gallery-overlay">
+        <span class="overlay-title">ISD 新生见面会</span>
+        <span class="overlay-desc">姚教授上台进行自我介绍</span>
+      </div>
+    </div>
+    <div class="gallery-item" data-category="moments">
+      <img src="{{ site.baseurl }}/photos/moments/260825 RI lecture.jpg" alt="260825">
+      <div class="gallery-overlay">
+        <span class="overlay-title">CKSRI 研讨会</span>
+        <span class="overlay-desc">面向触觉、机器人感知与医疗健康的柔性电子系统</span>
+      </div>
+    </div>
+    <div class="gallery-item" data-category="moments">
       <img src="{{ site.baseurl }}/photos/moments/2026-group-photo.jpg?v=20260822" alt="YAO课题组合影">
       <div class="gallery-overlay">
         <span class="overlay-title">课题组合影</span>
-        <span class="overlay-desc">YAO Research Group 聚会留影</span>
+        <span class="overlay-desc">YAO Research Group 聚餐留影</span>
       </div>
     </div>
     <div class="gallery-item" data-category="media">
