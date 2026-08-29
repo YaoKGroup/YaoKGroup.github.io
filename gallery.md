@@ -185,7 +185,7 @@ permalink: /gallery/
     <div class="gallery-item" data-category="captures">
       <img src="{{ site.baseurl }}/photos/cpt/YKM1216.jpg" alt="YKM1216">
       <div class="gallery-overlay">
-        <span class="overlay-desc">Sunset at the Pacific Coast of California</span>
+        <span class="overlay-desc">Hermosa Beach, Los Angeles</span>
       </div>
     </div>
     <div class="gallery-item" data-category="moments">
@@ -209,7 +209,7 @@ permalink: /gallery/
     <div class="gallery-item" data-category="captures">
       <img src="{{ site.baseurl }}/photos/cpt/YKM240919.jpg" alt="YKM240919">
       <div class="gallery-overlay">
-        <span class="overlay-desc">Hermosa Beach, Los Angeles</span>
+        <span class="overlay-desc">Sunset at the Pacific Coast of California</span>
       </div>
     </div>
   </div>
