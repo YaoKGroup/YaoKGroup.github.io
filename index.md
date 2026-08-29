@@ -11,9 +11,9 @@ subtitle: " HKUST • Division of Integrative Systems and Design"
   <article class="home-news-item">
     <div class="home-news-copy">
       <time datetime="2026-08-25">25. Aug. 2026</time>
-      <p>Dr. Yao was invited to give a seminar talk in the CK-SRI Seminar Series 2026. Many thanks to Prof. Ling Shi for the invitation, Prof. Yantao Yu for hosting, and Ms. Lili Chen for organizing the event.</p>
+      <p>Dr. Yao was invited to give a seminar talk in the CKSRI Seminar Series 2026. Many thanks to Prof. Ling Shi for the invitation, Prof. Yantao Yu for hosting, and Ms. Lili Chen for organizing the event.</p>
     </div>
-    <img src="/assets/img/news/2026-cksri-seminar-series.png?v=20260829" alt="CK-SRI Seminar Series 2026 poster for Prof. Kuanming Yao">
+    <img src="/assets/img/news/2026-cksri-seminar-series.png?v=20260829" alt="CKSRI Seminar Series 2026 poster for Prof. Kuanming Yao">
   </article>
 
   <article class="home-news-item home-news-item--text-only">
