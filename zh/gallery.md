@@ -38,6 +38,20 @@ en_url: /gallery/
 
   <div class="gallery-grid" id="gallery-grid">
     <div class="gallery-item" data-category="moments">
+      <img src="{{ site.baseurl }}/photos/moments/260901ic.jpg" alt="260901">
+      <div class="gallery-overlay">
+        <span class="overlay-title">任务达人行动日</span>
+        <span class="overlay-desc">执行任务途中恰好路过开学活动，领取了免费冰淇淋，蓝、刚胜和晓雯一人一个。由晓雯拍摄</span>
+      </div>
+    </div>
+    <div class="gallery-item" data-category="moments">
+      <img src="{{ site.baseurl }}/photos/moments/260831roboarm.jpg" alt="260831">
+      <div class="gallery-overlay">
+        <span class="overlay-title">一起组装机械臂</span>
+        <span class="overlay-desc">在组装机械臂期间，晓雯给刚胜浇水。由蓝拍摄</span>
+      </div>
+    </div>
+    <div class="gallery-item" data-category="moments">
       <img src="{{ site.baseurl }}/photos/moments/260827 ISD ori.jpg" alt="260827">
       <div class="gallery-overlay">
         <span class="overlay-title">ISD 新生见面会</span>
