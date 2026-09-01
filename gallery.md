@@ -142,9 +142,23 @@ permalink: /gallery/
 
   <div class="gallery-grid" id="gallery-grid">
     <div class="gallery-item" data-category="moments">
+      <img src="{{ site.baseurl }}/photos/moments/260901ic.jpg" alt="260901">
+      <div class="gallery-overlay">
+        <span class="overlay-title">Working on the Task</span>
+        <span class="overlay-desc">We happened to pass by a back-to-school event offering free ice cream, one each for Lan, Gangsheng, and Xiaowen. Captured by Xiaowen</span>
+      </div>
+    </div>
+    <div class="gallery-item" data-category="moments">
+      <img src="{{ site.baseurl }}/photos/moments/260831roboarm.jpg" alt="260831">
+      <div class="gallery-overlay">
+        <span class="overlay-title">Assembling the Robotic Arm</span>
+        <span class="overlay-desc">Xiaowen is watering Gangsheng during the robotic arm assembly session. Captured by Lan</span>
+      </div>
+    </div>
+    <div class="gallery-item" data-category="moments">
       <img src="{{ site.baseurl }}/photos/moments/260827 ISD ori.jpg" alt="260827">
       <div class="gallery-overlay">
-        <span class="overlay-title">ISD orientation</span>
+        <span class="overlay-title">ISD Orientation</span>
         <span class="overlay-desc">Prof. Yao takes the stage to introduce himself</span>
       </div>
     </div>
