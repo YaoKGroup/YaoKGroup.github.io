@@ -37,6 +37,7 @@ en_url: /gallery/
   </div>
 
     <div class="gallery-grid" id="gallery-grid">
+    <div class="gallery-item" data-category="moments">
       <img src="{{ site.baseurl }}/photos/moments/260904VR.jpg" alt="260904">
       <div class="gallery-overlay">
         <span class="overlay-title">VR设备前来报到</span>
