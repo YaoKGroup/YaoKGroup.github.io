@@ -100,3 +100,19 @@ en_url: /members/
   </div>
 
 </div>
+
+---
+
+## 本科生
+
+<div class="member-grid">
+  <div class="member-card">
+    <img class="member-photo" src="{{ '/photos/member/denis.jpg' | relative_url }}" alt="Denis Kaizer">
+    <div class="member-info">
+      <div class="member-name">Denis Kaizer</div>
+      <div class="member-line">9. 2026-</div>
+      <div class="member-line">Email:  dkaizer[at]connect.ust.hk</div>
+    </div>
+  </div>
+
+</div>
