@@ -36,7 +36,13 @@ en_url: /gallery/
     <span class="filter-tag" data-filter="captures">摄影</span>
   </div>
 
-  <div class="gallery-grid" id="gallery-grid">
+    <div class="gallery-grid" id="gallery-grid">
+      <img src="{{ site.baseurl }}/photos/moments/260904VR.jpg" alt="260904">
+      <div class="gallery-overlay">
+        <span class="overlay-title">VR设备前来报到</span>
+        <span class="overlay-desc">Denis几乎是飞奔过去见它，并为此兴奋了一整晚</span>
+      </div>
+    </div>
     <div class="gallery-item" data-category="moments">
       <img src="{{ site.baseurl }}/photos/moments/260901ic.jpg" alt="260901">
       <div class="gallery-overlay">
