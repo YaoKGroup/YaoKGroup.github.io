@@ -47,7 +47,7 @@ en_url: /gallery/
       <img src="{{ site.baseurl }}/photos/moments/260901ic.jpg" alt="260901">
       <div class="gallery-overlay">
         <span class="overlay-title">任务达人行动日</span>
-        <span class="overlay-desc">执行任务途中恰好路过开学活动，领取了免费冰淇淋，蓝、刚胜和晓雯一人一个。由晓雯拍摄</span>
+        <span class="overlay-desc">执行任务途中恰好路过开学活动，领取了免费冰淇淋，蓝、刚胜和晓雯一人一个</span>
       </div>
     </div>
     <div class="gallery-item" data-category="moments">
