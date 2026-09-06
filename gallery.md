@@ -142,6 +142,13 @@ permalink: /gallery/
 
   <div class="gallery-grid" id="gallery-grid">
     <div class="gallery-item" data-category="moments">
+      <img src="{{ site.baseurl }}/photos/moments/260905VR.jpg" alt="260905">
+      <div class="gallery-overlay">
+        <span class="overlay-title">VR Testing</span>
+        <span class="overlay-desc">Trying out hand recognition and more in VR. Captured by Denis</span>
+      </div>
+    </div>
+    <div class="gallery-item" data-category="moments">
       <img src="{{ site.baseurl }}/photos/moments/260904VR.jpg" alt="260904">
       <div class="gallery-overlay">
         <span class="overlay-title">VR Device Reporting for Duty</span>
@@ -152,7 +159,7 @@ permalink: /gallery/
       <img src="{{ site.baseurl }}/photos/moments/260901ic.jpg" alt="260901">
       <div class="gallery-overlay">
         <span class="overlay-title">Working on the Task</span>
-        <span class="overlay-desc">We happened to pass by a back-to-school event offering free ice cream, one each for Lan, Gangsheng, and Xiaowen.</span>
+        <span class="overlay-desc">We happened to pass by a back-to-school event offering free ice cream, one each for Lan, Gangsheng, and Xiaowen</span>
       </div>
     </div>
     <div class="gallery-item" data-category="moments">
