@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   update-citations:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     timeout-minutes: 12
     steps:
       - uses: actions/checkout@v4
@@ -31,7 +31,7 @@ jobs:
           GOOGLE_SCHOLAR_ID: dthwMXwAAAAJ
         run: |
           set +e
-          timeout 150s python scripts/update_scholar_citations.py
+          python -u scripts/update_scholar_citations.py
           code=$?
           if [ "$code" -eq 124 ]; then
             echo "::warning title=Google Scholar fetch timed out::Could not fetch Google Scholar data within 150 seconds. Keeping the existing citation data."
