@@ -13,7 +13,9 @@ import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
 
-from scholarly import scholarly
+import requests
+from bs4 import BeautifulSoup
+from urllib.parse import urljoin
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -56,35 +58,47 @@ def site_publication_titles() -> list[str]:
 
 
 def scholar_publications(scholar_id: str) -> dict[str, dict]:
-    author = scholarly.search_author_id(scholar_id)
-    author = scholarly.fill(author, sections=["publications"])
-
     entries: dict[str, dict] = {}
-    for publication in author.get("publications", []):
-        bib = publication.get("bib", {})
-        title = bib.get("title")
-        if not title:
-            continue
-
-        key = normalize_title(title)
-        author_pub_id = publication.get("author_pub_id")
-        scholar_url = None
-        if author_pub_id:
-            scholar_url = (
-                "https://scholar.google.com/citations?view_op=view_citation"
-                f"&hl=en&user={scholar_id}&citation_for_view={author_pub_id}"
+    with requests.Session() as session:
+        session.headers["User-Agent"] = "Mozilla/5.0"
+        for start in range(0, 1000, 100):
+            response = session.get(
+                "https://scholar.google.com/citations",
+                params={"user": scholar_id, "hl": "en", "pagesize": 100, "cstart": start},
+                timeout=(10, 30),
             )
-
-        record = {
-            "title": title,
-            "citations": int(publication.get("num_citations") or 0),
-            "year": bib.get("pub_year"),
-            "scholar_url": scholar_url,
-        }
-
-        previous = entries.get(key)
-        if previous is None or record["citations"] > previous["citations"]:
-            entries[key] = record
+            response.raise_for_status()
+            soup = BeautifulSoup(response.content, "html.parser")
+            rows = soup.select("tr.gsc_a_tr")
+            if not rows:
+                raise RuntimeError("Google Scholar returned no publication rows; existing data preserved.")
+            previous_count = len(entries)
+            for row in rows:
+                link = row.select_one("a.gsc_a_at")
+                count = row.select_one("a.gsc_a_ac")
+                year = row.select_one(".gsc_a_y")
+                if link is None or count is None:
+                    raise RuntimeError("Unexpected Google Scholar publication markup.")
+                title = link.get_text(strip=True)
+                citation_text = count.get_text(strip=True)
+                record = {
+                    "title": title,
+                    "citations": int(citation_text.replace(",", "")) if citation_text else 0,
+                    "year": year.get_text(strip=True) if year else None,
+                    "scholar_url": urljoin(response.url, link["href"]),
+                }
+                key = normalize_title(title)
+                previous = entries.get(key)
+                if previous is None or record["citations"] > previous["citations"]:
+                    entries[key] = record
+            print(f"Fetched {len(entries)} Google Scholar publications.", flush=True)
+            more = soup.select_one("#gsc_bpf_more")
+            if more is None or more.has_attr("disabled"):
+                break
+            if len(entries) == previous_count:
+                raise RuntimeError("Google Scholar pagination did not advance.")
+        else:
+            raise RuntimeError("Google Scholar publication pagination exceeded the limit.")
 
     return entries
 
@@ -122,9 +136,7 @@ def main() -> int:
             f"Could not fetch Google Scholar data ({type(exc).__name__}: {exc}). "
             "Keeping the existing citation data."
         )
-        if OUTPUT_PATH.exists():
-            return 0
-        raise
+        return 1
 
     site_entries: dict[str, dict] = {}
 
@@ -162,12 +174,14 @@ def main() -> int:
         "scholar_citations_by_title": scholar_entries,
     }
 
-    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    OUTPUT_PATH.write_text(json.dumps(output, indent=2, ensure_ascii=False) + "\n")
-    print(f"Updated {OUTPUT_PATH}: matched {matched}/{len(site_entries)} site publications.")
     if matched == 0:
         print("No site publications matched Google Scholar data.", file=sys.stderr)
         return 1
+    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    temporary_path = OUTPUT_PATH.with_suffix(".tmp")
+    temporary_path.write_text(json.dumps(output, indent=2, ensure_ascii=False) + "\n")
+    temporary_path.replace(OUTPUT_PATH)
+    print(f"Updated {OUTPUT_PATH}: matched {matched}/{len(site_entries)} site publications.")
     return 0
 
 

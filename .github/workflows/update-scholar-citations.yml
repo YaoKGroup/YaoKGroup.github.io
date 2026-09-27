@@ -22,9 +22,9 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          python -m pip install "scholarly==1.7.11" "bibtexparser==1.4.3"
+          python -m pip install "requests==2.32.5" "beautifulsoup4==4.14.3"
           python -m pip check
-          python -c "from scholarly import scholarly; from bibtexparser.bibdatabase import BibDatabase"
+          python -c "import requests; from bs4 import BeautifulSoup"
 
       - name: Fetch Google Scholar citation counts
         env:
@@ -35,7 +35,7 @@ jobs:
           code=$?
           if [ "$code" -eq 124 ]; then
             echo "::warning title=Google Scholar fetch timed out::Could not fetch Google Scholar data within 150 seconds. Keeping the existing citation data."
-            exit 0
+            exit 1
           fi
           exit "$code"
 
