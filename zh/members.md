@@ -65,7 +65,6 @@ en_url: /members/
       <div class="member-name">陈刚胜</div>
       <div class="member-line">8. 2026-</div>
       <div class="member-line">博士：东南大学</div>
-      <div class="member-line">硕士：东南大学</div>
       <div class="member-line">本科：东南大学</div>
       <div class="member-line">邮箱：gangsheng[at]ust.hk</div>
     </div>
@@ -99,6 +98,17 @@ en_url: /members/
     </div>
   </div>
 
+  <div class="member-card">
+    <img class="member-photo" src="{{ '/photos/member/zixuan.jpg' | relative_url }}?v=20261005" alt="LI Zixuan">
+    <div class="member-info">
+      <div class="member-name">李子轩</div>
+      <div class="member-line">9. 2026-</div>
+      <div class="member-line">硕士：香港科技大学</div>
+      <div class="member-line">本科：东北大学</div>
+      <div class="member-line">Email: zliiw[at]connect.ust.hk</div>
+    </div>
+  </div>
+
 </div>
 
 ---
@@ -111,7 +121,7 @@ en_url: /members/
     <div class="member-info">
       <div class="member-name">Denis Kaizer</div>
       <div class="member-line">9. 2026-</div>
-      <div class="member-line">Email:  dkaizer[at]connect.ust.hk</div>
+      <div class="member-line">Email: dkaizer[at]connect.ust.hk</div>
     </div>
   </div>
 
