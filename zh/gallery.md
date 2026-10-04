@@ -40,8 +40,8 @@ en_url: /gallery/
     <div class="gallery-item" data-category="moments">
       <img src="{{ site.baseurl }}/photos/moments/261003.jpg" alt="261003">
       <div class="gallery-overlay">
-        <span class="overlay-title">路障僵尸</span>
-        <span class="overlay-desc">子轩的新造型。由晓雯拍摄</span>
+        <span class="overlay-title">实验室整理</span>
+        <span class="overlay-desc">路障僵尸子轩。由晓雯拍摄</span>
       </div>
     </div>
     <div class="gallery-item" data-category="moments">
