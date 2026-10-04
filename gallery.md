@@ -144,8 +144,8 @@ permalink: /gallery/
     <div class="gallery-item" data-category="moments">
       <img src="{{ site.baseurl }}/photos/moments/261003.jpg" alt="261003">
       <div class="gallery-overlay">
-        <span class="overlay-title">Roadblock Zombie</span>
-        <span class="overlay-desc">Zixuan's new look. Captured by Xiaowen</span>
+        <span class="overlay-title">Lab organization</span>
+        <span class="overlay-desc">Roadblock Zombie Zixuan. Captured by Xiaowen</span>
       </div>
     </div>
     <div class="gallery-item" data-category="moments">
