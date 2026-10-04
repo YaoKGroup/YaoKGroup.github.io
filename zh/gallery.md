@@ -38,13 +38,6 @@ en_url: /gallery/
 
     <div class="gallery-grid" id="gallery-grid">
     <div class="gallery-item" data-category="moments">
-      <img src="{{ site.baseurl }}/photos/moments/261003.jpg" alt="261003">
-      <div class="gallery-overlay">
-        <span class="overlay-title">实验室整理</span>
-        <span class="overlay-desc">路障僵尸子轩。由晓雯拍摄</span>
-      </div>
-    </div>
-    <div class="gallery-item" data-category="moments">
       <img src="{{ site.baseurl }}/photos/moments/260905VR.jpg" alt="260905">
       <div class="gallery-overlay">
         <span class="overlay-title">VR测试</span>
@@ -117,12 +110,6 @@ en_url: /gallery/
       <img src="{{ site.baseurl }}/photos/cpt/YKM1216.jpg" alt="YKM1216">
       <div class="gallery-overlay">
         <span class="overlay-desc">Hermosa Beach, Los Angeles</span>
-      </div>
-    </div>
-    <div class="gallery-item" data-category="moments">
-      <img src="{{ site.baseurl }}/photos/moments/260516.jpeg" alt="260516">
-      <div class="gallery-overlay">
-        <span class="overlay-desc">南北小廚的晚餐</span>
       </div>
     </div>
     <div class="gallery-item" data-category="captures">
