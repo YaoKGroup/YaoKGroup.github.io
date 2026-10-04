@@ -63,7 +63,6 @@ permalink: /members/
       <div class="member-name">Dr. CHEN Gangsheng</div>
       <div class="member-line">8. 2026-</div>
       <div class="member-line">Ph.D., Southeast University</div>
-      <div class="member-line">M.S., Southeast University</div>
       <div class="member-line">B.Eng., Southeast University</div>
       <div class="member-line">Email: gangsheng[at]ust.hk</div>
     </div>
@@ -94,6 +93,17 @@ permalink: /members/
       <div class="member-line">9. 2026-</div>
       <div class="member-line">B.Eng., Harbin Institute of Technology, Shenzhen</div>
       <div class="member-line">Email: xwen.zhang[at]connect.ust.hk</div>
+    </div>
+  </div>
+
+  <div class="member-card">
+    <img class="member-photo" src="{{ '/photos/member/zixuan.jpg' | relative_url }}?v=20261005" alt="LI Zixuan">
+    <div class="member-info">
+      <div class="member-name">LI Zixuan</div>
+      <div class="member-line">9. 2026-</div>
+      <div class="member-line">M.S., The Hong Kong University of Science and Technology</div>
+      <div class="member-line">B.Eng., Northeastern University</div>
+      <div class="member-line">Email: zliiw[at]connect.ust.hk</div>
     </div>
   </div>
 
