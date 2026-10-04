@@ -142,13 +142,6 @@ permalink: /gallery/
 
   <div class="gallery-grid" id="gallery-grid">
     <div class="gallery-item" data-category="moments">
-      <img src="{{ site.baseurl }}/photos/moments/261003.jpg" alt="261003">
-      <div class="gallery-overlay">
-        <span class="overlay-title">Lab organization</span>
-        <span class="overlay-desc">Roadblock Zombie Zixuan. Captured by Xiaowen</span>
-      </div>
-    </div>
-    <div class="gallery-item" data-category="moments">
       <img src="{{ site.baseurl }}/photos/moments/260905VR.jpg" alt="260905">
       <div class="gallery-overlay">
         <span class="overlay-title">VR Testing</span>
@@ -221,12 +214,6 @@ permalink: /gallery/
       <img src="{{ site.baseurl }}/photos/cpt/YKM1216.jpg" alt="YKM1216">
       <div class="gallery-overlay">
         <span class="overlay-desc">Hermosa Beach, Los Angeles</span>
-      </div>
-    </div>
-    <div class="gallery-item" data-category="moments">
-      <img src="{{ site.baseurl }}/photos/moments/260516.jpeg" alt="260516">
-      <div class="gallery-overlay">
-        <span class="overlay-desc">Dinner at 南北小廚</span>
       </div>
     </div>
     <div class="gallery-item" data-category="captures">
