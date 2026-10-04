@@ -37,7 +37,6 @@ en_url: /gallery/
   </div>
 
     <div class="gallery-grid" id="gallery-grid">
-    <div class="gallery-grid" id="gallery-grid">
     <div class="gallery-item" data-category="moments">
       <img src="{{ site.baseurl }}/photos/moments/261003.jpg" alt="261003">
       <div class="gallery-overlay">
