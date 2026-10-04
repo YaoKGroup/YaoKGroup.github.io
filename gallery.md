@@ -142,6 +142,13 @@ permalink: /gallery/
 
   <div class="gallery-grid" id="gallery-grid">
     <div class="gallery-item" data-category="moments">
+      <img src="{{ site.baseurl }}/photos/moments/261003.jpg" alt="261003">
+      <div class="gallery-overlay">
+        <span class="overlay-title">Roadblock Zombie</span>
+        <span class="overlay-desc">Zixuan's new look. Captured by Xiaowen</span>
+      </div>
+    </div>
+    <div class="gallery-item" data-category="moments">
       <img src="{{ site.baseurl }}/photos/moments/260905VR.jpg" alt="260905">
       <div class="gallery-overlay">
         <span class="overlay-title">VR Testing</span>
