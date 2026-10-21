@@ -14,7 +14,7 @@ en_url: /
   <article class="home-news-item">
     <div class="home-news-copy">
       <time datetime="2026-10-18">2026年10月18日</time>
-      <p>姚博士在北京举行的第八届仿生工程国际会议（ICBE 2026）上作题为“Bioelectronic Interfacial Systems for Sensory and Health”的邀请报告，并担任分会场 5“Bionic Intelligent Device and System”主持人。</p>
+      <p>姚博士在北京举行的第八届仿生工程国际会议（ICBE 2026）上作题为“Bioelectronic Interfacial Systems for Sensory and Health”的邀请报告，并担任分会场 5“Bionic Intelligent Device and System”主持人。感谢北京航空航天大学马治强老师的邀请。</p>
     </div>
     <img src="/assets/img/news/2026-icbe-invited-speaker.jpg" alt="姚博士在北京举行的 ICBE 2026 作邀请报告">
   </article>
