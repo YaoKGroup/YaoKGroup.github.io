@@ -10,6 +10,14 @@ subtitle: " HKUST • Division of Integrative Systems and Design"
 
   <article class="home-news-item">
     <div class="home-news-copy">
+      <time datetime="2026-10-18">18. Oct. 2026</time>
+      <p>Dr. Yao gave an invited talk, “Bioelectronic Interfacial Systems for Sensory and Health,” at the 8th International Conference of Bionic Engineering (ICBE 2026) in Beijing, China. He also chaired Session 5: Bionic Intelligent Device and System.</p>
+    </div>
+    <img src="/assets/img/news/2026-icbe-invited-speaker.jpg" alt="Dr. Yao giving an invited talk at ICBE 2026 in Beijing">
+  </article>
+
+  <article class="home-news-item">
+    <div class="home-news-copy">
       <time datetime="2026-08-25">25. Aug. 2026</time>
       <p>Dr. Yao was invited to give a seminar talk in the CKSRI Seminar Series 2026. Many thanks to Prof. Ling Shi for the invitation, Prof. Yantao Yu for hosting, and Ms. Lili Chen for organizing the event.</p>
     </div>
