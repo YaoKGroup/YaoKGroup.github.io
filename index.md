@@ -34,7 +34,7 @@ subtitle: " HKUST • Division of Integrative Systems and Design"
   <article class="home-news-item">
     <div class="home-news-copy">
       <time datetime="2026-08-04">4-6. Aug. 2026</time>
-      <p>Dr. Yao attended the 7th International Conference on Flexible Electronics as an invited speaker in Jiaxing, China.</p>
+      <p>Dr. Yao attended the 7th International Conference on Flexible Electronics as an invited speaker in Jiaxing, China. Many thanks to Dr. Renheng Bo of Tsinghua University for the invitation.</p>
     </div>
     <img src="/assets/img/news/2026-icfe-invited-speaker.jpg?v=20260822" alt="Certificate for Dr. Kuanming Yao as invited speaker at the 7th International Conference on Flexible Electronics">
   </article>
