@@ -22,7 +22,7 @@ en_url: /
   <article class="home-news-item">
     <div class="home-news-copy">
       <time datetime="2026-08-25">2026年8月25日</time>
-      <p>姚教授受邀在郑家纯机器人研究院 CKSRI Seminar Series 2026 作学术报告。感谢 Ling Shi 教授 的邀请、Host Yantao Yu 教授 的接待，以及 Organizer Ms. Lili Chen 的组织。</p>
+      <p>姚教授受邀在郑家纯机器人研究院 CKSRI Seminar Series 2026 作学术报告。感谢 Ling Shi 教授的邀请、Yantao Yu 教授的接待，以及 Lili Chen 女士的组织。</p>
     </div>
     <img src="/assets/img/news/2026-cksri-seminar-series.png?v=20260829" alt="姚宽明教授 CKSRI Seminar Series 2026 海报">
   </article>
