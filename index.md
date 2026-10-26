@@ -10,6 +10,14 @@ subtitle: " HKUST • Division of Integrative Systems and Design"
 
   <article class="home-news-item">
     <div class="home-news-copy">
+      <time datetime="2026-10-23">23-25. Oct. 2026</time>
+      <p>Prof. Yao chaired Session 6: Flexible Bioelectronics and Medical Electronics at the 10th International Symposium of Flexible &amp; Stretchable Electronics (ISFSE 2026).</p>
+    </div>
+    <img src="/assets/img/news/2026-isfse-session-chair.jpg" alt="ISFSE 2026 conference materials and Prof. Yao's name card">
+  </article>
+
+  <article class="home-news-item">
+    <div class="home-news-copy">
       <time datetime="2026-10-18">18. Oct. 2026</time>
       <p>Prof. Yao gave an invited talk, “Bioelectronic Interfacial Systems for Sensory and Health,” at the 8th International Conference of Bionic Engineering (ICBE 2026) in Beijing, China. He also chaired Session 5: Bionic Intelligent Device and System. Many thanks to Prof. Zhiqiang Ma of Beihang University for the invitation.</p>
     </div>

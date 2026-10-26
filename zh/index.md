@@ -13,6 +13,14 @@ en_url: /
 
   <article class="home-news-item">
     <div class="home-news-copy">
+      <time datetime="2026-10-23">2026年10月23-25日</time>
+      <p>姚教授在第十届柔性与可拉伸电子国际研讨会（ISFSE 2026）担任分论坛六“柔性生物与医疗电子”主席。</p>
+    </div>
+    <img src="/assets/img/news/2026-isfse-session-chair.jpg" alt="ISFSE 2026 会议资料及姚教授的席卡">
+  </article>
+
+  <article class="home-news-item">
+    <div class="home-news-copy">
       <time datetime="2026-10-18">2026年10月18日</time>
       <p>姚教授在北京举行的第八届仿生工程国际会议（ICBE 2026）上作题为“Bioelectronic Interfacial Systems for Sensory and Health”的邀请报告，并担任分会场 5“Bionic Intelligent Device and System”主持人。感谢北京航空航天大学马治强教授的邀请。</p>
     </div>
