@@ -10,7 +10,7 @@ en_url: /gallery/
 <div id="custom-gallery-container">
   <style>
     #custom-gallery-container { color: var(--text-main); }
-    #custom-gallery-container .gallery-filters { display: flex; gap: 30px; margin: 20px 0 40px 0; border-bottom: 1px solid #eee; padding-bottom: 15px; }
+    #custom-gallery-container .gallery-filters { display: flex; gap: clamp(8px, 3vw, 30px); margin: 20px 0 40px 0; border-bottom: 1px solid #eee; padding-bottom: 15px; }
     #custom-gallery-container .filter-tag { font-size: 1.1rem; text-transform: none; cursor: pointer; color: var(--ust-blue); padding: 5px 0; transition: color 0.2s ease; position: relative; font-weight: 600; }
     #custom-gallery-container .filter-tag:hover, #custom-gallery-container .filter-tag.active { color: var(--gold); }
     #custom-gallery-container .filter-tag.active { font-weight: 500; }
