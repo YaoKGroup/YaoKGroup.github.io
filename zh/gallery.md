@@ -33,6 +33,7 @@ en_url: /gallery/
     <span class="filter-tag active" data-filter="all">全部</span>
     <span class="filter-tag" data-filter="media">媒体报道</span>
     <span class="filter-tag" data-filter="moments">瞬间</span>
+    <span class="filter-tag" data-filter="dining">伙食</span>
     <span class="filter-tag" data-filter="captures">摄影</span>
   </div>
 
