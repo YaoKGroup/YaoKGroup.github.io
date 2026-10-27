@@ -42,7 +42,7 @@ en_url: /gallery/
       <img src="{{ site.baseurl }}/photos/bites/261026.jpg" alt="261026">
       <div class="gallery-overlay">
         <span class="overlay-title">曾肇添展艺厅</span>
-        <span class="overlay-desc">HKUST Materials Forum 2026 cum Establishment Ceremony of the Department of Materials</span>
+        <span class="overlay-desc">材料论坛2026暨材料学系成立典礼</span>
       </div>
     </div>
     <div class="gallery-item" data-category="dining">
