@@ -142,6 +142,34 @@ permalink: /gallery/
   </div>
 
   <div class="gallery-grid" id="gallery-grid">
+    <div class="gallery-item" data-category="dining">
+      <img src="{{ site.baseurl }}/photos/bites/261026.jpg" alt="261026">
+      <div class="gallery-overlay">
+        <span class="overlay-title">Tsang Shiu Tim Art Hall</span>
+        <span class="overlay-desc">HKUST Materials Forum 2026 cum Establishment Ceremony of the Department of Materials</span>
+      </div>
+    </div>
+    <div class="gallery-item" data-category="dining">
+      <img src="{{ site.baseurl }}/photos/bites/261008.jpg" alt="261008">
+      <div class="gallery-overlay">
+        <span class="overlay-title">南北小廚</span>
+        <span class="overlay-desc">2026-10-08 · 早茶</span>
+      </div>
+    </div>
+    <div class="gallery-item" data-category="dining">
+      <img src="{{ site.baseurl }}/photos/bites/261005.jpg" alt="261005">
+      <div class="gallery-overlay">
+        <span class="overlay-title">南北小廚</span>
+        <span class="overlay-desc">2026-10-05</span>
+      </div>
+    </div>
+    <div class="gallery-item" data-category="dining">
+      <img src="{{ site.baseurl }}/photos/bites/261004.jpg" alt="261004">
+      <div class="gallery-overlay">
+        <span class="overlay-title">洪记海鲜</span>
+        <span class="overlay-desc">2026-10-04</span>
+      </div>
+    </div>
     <div class="gallery-item" data-category="moments">
       <img src="{{ site.baseurl }}/photos/moments/260905VR.jpg" alt="260905">
       <div class="gallery-overlay">
@@ -189,6 +217,13 @@ permalink: /gallery/
       <div class="gallery-overlay">
         <span class="overlay-title">Group Photo</span>
         <span class="overlay-desc">YAO Research Group gathering</span>
+      </div>
+    </div>
+    <div class="gallery-item" data-category="dining">
+      <img src="{{ site.baseurl }}/photos/bites/260516.jpeg" alt="260516">
+      <div class="gallery-overlay">
+        <span class="overlay-title">南北小廚</span>
+        <span class="overlay-desc">2026-05-16</span>
       </div>
     </div>
     <div class="gallery-item" data-category="media">
