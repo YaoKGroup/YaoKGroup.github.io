@@ -153,7 +153,7 @@ permalink: /gallery/
       <img src="{{ site.baseurl }}/photos/bites/261008.jpg" alt="261008">
       <div class="gallery-overlay">
         <span class="overlay-title">南北小廚</span>
-        <span class="overlay-desc">2026-10-08 · 早茶</span>
+        <span class="overlay-desc">2026-10-08 · Dim sum</span>
       </div>
     </div>
     <div class="gallery-item" data-category="dining">
@@ -166,7 +166,7 @@ permalink: /gallery/
     <div class="gallery-item" data-category="dining">
       <img src="{{ site.baseurl }}/photos/bites/261004.jpg" alt="261004">
       <div class="gallery-overlay">
-        <span class="overlay-title">洪记海鲜</span>
+        <span class="overlay-title">Hung Kee Seafood Restaurant</span>
         <span class="overlay-desc">2026-10-04</span>
       </div>
     </div>
