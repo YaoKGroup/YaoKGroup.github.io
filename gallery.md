@@ -137,6 +137,7 @@ permalink: /gallery/
     <span class="filter-tag active" data-filter="all">all</span>
     <span class="filter-tag" data-filter="media">media</span>
     <span class="filter-tag" data-filter="moments">moments</span>
+    <span class="filter-tag" data-filter="dining">dining</span>
     <span class="filter-tag" data-filter="captures">captures</span>
   </div>
 
