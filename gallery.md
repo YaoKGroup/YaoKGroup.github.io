@@ -13,7 +13,7 @@ permalink: /gallery/
     
     #custom-gallery-container .gallery-filters {
       display: flex;
-      gap: 30px;
+      gap: clamp(8px, 3vw, 30px);
       margin: 20px 0 40px 0;
       border-bottom: 1px solid #eee;
       padding-bottom: 15px;
@@ -137,7 +137,7 @@ permalink: /gallery/
     <span class="filter-tag active" data-filter="all">all</span>
     <span class="filter-tag" data-filter="media">media</span>
     <span class="filter-tag" data-filter="moments">moments</span>
-    <span class="filter-tag" data-filter="dining">dining</span>
+    <span class="filter-tag" data-filter="dining">Bites</span>
     <span class="filter-tag" data-filter="captures">captures</span>
   </div>
 
