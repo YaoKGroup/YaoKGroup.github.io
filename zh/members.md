@@ -110,6 +110,17 @@ en_url: /members/
     </div>
   </div>
 
+  <div class="member-card">
+    <img class="member-photo" src="{{ '/photos/member/shaggi.jpg' | relative_url }}" alt="Shaghayegh Nazari">
+    <div class="member-info">
+      <div class="member-name">Shaghayegh Nazari</div>
+      <div class="member-line">共同指导</div>
+      <div class="member-line">10. 2026-</div>
+      <div class="member-line">本科：阿米尔卡比尔理工大学（德黑兰理工大学）</div>
+      <div class="member-line">邮箱：snazari[@]connect.ust.hk</div>
+    </div>
+  </div>
+
 </div>
 
 ---
