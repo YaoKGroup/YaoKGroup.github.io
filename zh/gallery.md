@@ -67,6 +67,21 @@ en_url: /gallery/
       </div>
     </div>
     <div class="gallery-item" data-category="moments">
+      <img src="{{ site.baseurl }}/photos/moments/2026-moments-new-01.jpg" alt="聚餐合影">
+    </div>
+    <div class="gallery-item" data-category="moments">
+      <img src="{{ site.baseurl }}/photos/moments/2026-moments-new-02.jpg" alt="香港夜景前三人合影">
+    </div>
+    <div class="gallery-item" data-category="moments">
+      <img src="{{ site.baseurl }}/photos/moments/2026-moments-new-03.jpg" alt="两人聚餐合影">
+    </div>
+    <div class="gallery-item" data-category="moments">
+      <img src="{{ site.baseurl }}/photos/moments/2026-moments-new-04.jpg" alt="集成电路学院前合影">
+    </div>
+    <div class="gallery-item" data-category="moments">
+      <img src="{{ site.baseurl }}/photos/moments/2026-moments-new-05.jpg" alt="海鲜餐厅留影">
+    </div>
+    <div class="gallery-item" data-category="moments">
       <img src="{{ site.baseurl }}/photos/moments/260905VR.jpg" alt="260905">
       <div class="gallery-overlay">
         <span class="overlay-title">VR测试</span>

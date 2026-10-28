@@ -13,6 +13,7 @@ permalink: /members/
       <h3 class="pi-name-incol">Dr. YAO Kuanming</h3>
 
       <img class="pi-photo" src="{{ '/photos/member/yao.jpg' | relative_url }}" alt="PI photo">
+      <p style="margin: 0.8rem 0 0; text-align: center;"><a href="{{ '/assets/files/yao-kuanming-cv-2026-10.pdf' | relative_url }}" download="CV-YAO-Kuanming-2026-10.pdf">Download CV (PDF)</a></p>
 
     </div>
 

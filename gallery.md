@@ -171,6 +171,21 @@ permalink: /gallery/
       </div>
     </div>
     <div class="gallery-item" data-category="moments">
+      <img src="{{ site.baseurl }}/photos/moments/2026-moments-new-01.jpg" alt="Group at dinner">
+    </div>
+    <div class="gallery-item" data-category="moments">
+      <img src="{{ site.baseurl }}/photos/moments/2026-moments-new-02.jpg" alt="Three people with the Hong Kong skyline">
+    </div>
+    <div class="gallery-item" data-category="moments">
+      <img src="{{ site.baseurl }}/photos/moments/2026-moments-new-03.jpg" alt="Two people dining together">
+    </div>
+    <div class="gallery-item" data-category="moments">
+      <img src="{{ site.baseurl }}/photos/moments/2026-moments-new-04.jpg" alt="Two people outside the School of Integrated Circuits">
+    </div>
+    <div class="gallery-item" data-category="moments">
+      <img src="{{ site.baseurl }}/photos/moments/2026-moments-new-05.jpg" alt="Group at a seafood restaurant">
+    </div>
+    <div class="gallery-item" data-category="moments">
       <img src="{{ site.baseurl }}/photos/moments/260905VR.jpg" alt="260905">
       <div class="gallery-overlay">
         <span class="overlay-title">VR Testing</span>
