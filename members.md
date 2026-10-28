@@ -108,6 +108,17 @@ permalink: /members/
     </div>
   </div>
 
+  <div class="member-card">
+    <img class="member-photo" src="{{ '/photos/member/shaggi.jpg' | relative_url }}" alt="Shaghayegh Nazari">
+    <div class="member-info">
+      <div class="member-name">Shaghayegh Nazari</div>
+      <div class="member-line">Co-supervised</div>
+      <div class="member-line">10. 2026-</div>
+      <div class="member-line">B.Eng., Amir Kabir University of Technology (Tehran Polytechnic)</div>
+      <div class="member-line">Email: snazari[@]connect.ust.hk</div>
+    </div>
+  </div>
+
 </div>
 
 ---
