@@ -74,10 +74,11 @@ permalink: /members/
     <div class="member-info">
       <div class="member-name">Dr. MA Changqiu</div>
       <div class="member-line">Visiting Scholar (SZU-SCH)</div>
-      <div class="member-line">Postdoctoral Fellow, Shenzhen University South China Hospital (Dec. 2025 - present)</div>
-      <div class="member-line">Ph.D. in Physics, University of Science and Technology of China (Sept. 2020 - Nov. 2025)</div>
-      <div class="member-line">M.S. in Materials Science and Engineering, East China University of Science and Technology (Sept. 2017 - Jun. 2020)</div>
-      <div class="member-line">B.S. in Mineral Processing Engineering, China University of Mining and Technology-Beijing (Sept. 2013 - Jun. 2017)</div>
+      <div class="member-line">Postdoctoral Fellow, Shenzhen University South China Hospital</div>
+      <div class="member-line">Ph.D., University of Science and Technology of China</div>
+      <div class="member-line">M.S., East China University of Science and Technology</div>
+      <div class="member-line">B.S., China University of Mining and Technology-Beijing</div>
+      <div class="member-line">Email: mcq[at]mail.ustc.edu.cn</div>
     </div>
   </div>
 

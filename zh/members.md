@@ -76,10 +76,11 @@ en_url: /members/
     <div class="member-info">
       <div class="member-name">马长丘博士</div>
       <div class="member-line">访问学者（SZU-SCH）</div>
-      <div class="member-line">博士后：深圳大学附属华南医院（2025年12月至今）</div>
-      <div class="member-line">博士：物理学，中国科学技术大学（2020年9月 - 2025年11月）</div>
-      <div class="member-line">硕士：材料科学与工程，华东理工大学（2017年9月 - 2020年6月）</div>
-      <div class="member-line">本科：矿物加工工程，中国矿业大学（北京）（2013年9月 - 2017年6月）</div>
+      <div class="member-line">博士后：深圳大学附属华南医院</div>
+      <div class="member-line">博士：中国科学技术大学</div>
+      <div class="member-line">硕士：华东理工大学</div>
+      <div class="member-line">本科：中国矿业大学（北京）</div>
+      <div class="member-line">邮箱：mcq[at]mail.ustc.edu.cn</div>
     </div>
   </div>
 
