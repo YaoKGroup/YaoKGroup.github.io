@@ -75,7 +75,7 @@ en_url: /members/
     <img class="member-photo" src="{{ '/assets/img/members/ma-changqiu.jpg' | relative_url }}" alt="马长丘博士">
     <div class="member-info">
       <div class="member-name">马长丘博士</div>
-      <div class="member-line">访问学者（SZU-SCH）</div>
+      <div class="member-line">访问学者</div>
       <div class="member-line">博士后：深圳大学附属华南医院</div>
       <div class="member-line">博士：中国科学技术大学</div>
       <div class="member-line">硕士：华东理工大学</div>

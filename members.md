@@ -73,7 +73,7 @@ permalink: /members/
     <img class="member-photo" src="{{ '/assets/img/members/ma-changqiu.jpg' | relative_url }}" alt="Dr. MA Changqiu">
     <div class="member-info">
       <div class="member-name">Dr. MA Changqiu</div>
-      <div class="member-line">Visiting Scholar (SZU-SCH)</div>
+      <div class="member-line">Visiting Scholar</div>
       <div class="member-line">Postdoctoral Fellow, Shenzhen University South China Hospital</div>
       <div class="member-line">Ph.D., University of Science and Technology of China</div>
       <div class="member-line">M.S., East China University of Science and Technology</div>
