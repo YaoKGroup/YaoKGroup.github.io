@@ -69,6 +69,19 @@ permalink: /members/
     </div>
   </div>
 
+  <div class="member-card">
+    <img class="member-photo" src="{{ '/assets/img/members/ma-changqiu.jpg' | relative_url }}" alt="Dr. MA Changqiu">
+    <div class="member-info">
+      <div class="member-name">Dr. MA Changqiu</div>
+      <div class="member-line">Visiting Scholar (SZU-SCH)</div>
+      <div class="member-line">Postdoctoral Fellow, Shenzhen University South China Hospital (Dec. 2025 - present)</div>
+      <div class="member-line">Ph.D. in Physics, University of Science and Technology of China (Sept. 2020 - Nov. 2025)</div>
+      <div class="member-line">M.S. in Materials Science and Engineering, East China University of Science and Technology (Sept. 2017 - Jun. 2020)</div>
+      <div class="member-line">B.S. in Mineral Processing Engineering, China University of Mining and Technology-Beijing (Sept. 2013 - Jun. 2017)</div>
+    </div>
+  </div>
+
+
 </div>
 
 ---
