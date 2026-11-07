@@ -67,6 +67,24 @@ en_url: /gallery/
       </div>
     </div>
     <div class="gallery-item" data-category="moments">
+      <img src="{{ site.baseurl }}/photos/moments/2026-11-yu-lab-alumni-reunion-01.jpg" alt="Yu Lab alumni reunion at HKUST, Nov.2026">
+      <div class="gallery-overlay">
+        <span class="overlay-title">Yu Lab alumni reunion at HKUST, Nov.2026</span>
+      </div>
+    </div>
+    <div class="gallery-item" data-category="moments">
+      <img src="{{ site.baseurl }}/photos/moments/2026-11-yu-lab-alumni-reunion-02.jpg" alt="Yu Lab alumni reunion at HKUST, Nov.2026">
+      <div class="gallery-overlay">
+        <span class="overlay-title">Yu Lab alumni reunion at HKUST, Nov.2026</span>
+      </div>
+    </div>
+    <div class="gallery-item" data-category="moments">
+      <img src="{{ site.baseurl }}/photos/moments/2026-11-bmemat-am-symposium.jpg" alt="BMEMat-AM joint symposium, Nov.2026.">
+      <div class="gallery-overlay">
+        <span class="overlay-title">BMEMat-AM joint symposium, Nov.2026.</span>
+      </div>
+    </div>
+    <div class="gallery-item" data-category="moments">
       <img src="{{ site.baseurl }}/photos/moments/2026-moments-new-01.jpg" alt="聚餐合影">
     </div>
     <div class="gallery-item" data-category="moments">
