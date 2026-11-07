@@ -13,6 +13,14 @@ en_url: /
 
   <article class="home-news-item">
     <div class="home-news-copy">
+      <time datetime="2026-11-07">2026年11月7日</time>
+      <p>姚教授受邀在中国香港举行的第三届 BMEMat-Advanced Materials 联合研讨会上作报告。感谢香港中文大学刘玉霞教授的邀请。</p>
+    </div>
+    <img src="/assets/img/news/2026-bmemat-am-invited-talk.jpg" alt="姚教授在第三届 BMEMat-Advanced Materials 联合研讨会上作邀请报告">
+  </article>
+
+  <article class="home-news-item">
+    <div class="home-news-copy">
       <time datetime="2026-10-23">2026年10月23-25日</time>
       <p>姚教授在第十届柔性与可拉伸电子国际研讨会（ISFSE 2026）担任分论坛六“柔性生物与医疗电子”主席。</p>
     </div>

@@ -10,6 +10,14 @@ subtitle: " HKUST • Division of Integrative Systems and Design"
 
   <article class="home-news-item">
     <div class="home-news-copy">
+      <time datetime="2026-11-07">7. Nov. 2026</time>
+      <p>Prof. Yao gave an invited talk at the 3rd BMEMat-Advanced Materials Joint Symposium in Hong Kong, China. Many thanks to Prof. Yuxia Liu of The Chinese University of Hong Kong for the invitation.</p>
+    </div>
+    <img src="/assets/img/news/2026-bmemat-am-invited-talk.jpg" alt="Prof. Yao giving an invited talk at the 3rd BMEMat-Advanced Materials Joint Symposium">
+  </article>
+
+  <article class="home-news-item">
+    <div class="home-news-copy">
       <time datetime="2026-10-23">23-25. Oct. 2026</time>
       <p>Prof. Yao chaired Session 6: Flexible Bioelectronics and Medical Electronics at the 10th International Symposium of Flexible &amp; Stretchable Electronics (ISFSE 2026).</p>
     </div>
