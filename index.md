@@ -10,18 +10,18 @@ subtitle: " HKUST • Division of Integrative Systems and Design"
 
   <article class="home-news-item">
     <div class="home-news-copy">
-      <time datetime="2026-11-14">14. Nov. 2026</time>
-      <p>Prof. Yao gave a seminar talk at the School of Biological Science and Medical Engineering and the State Key Laboratory of Digital Medical Engineering, Southeast University. Many thanks to Prof. Hong Liu for the invitation.</p>
+      <time datetime="2026-11-15">15. Nov. 2026</time>
+      <p>Prof. Yao gave an invited talk at the Flexible Electronic Devices and Brain-Computer Interfaces forum of the 6th Chinese Institute of Electronics Semiconductor Young Scholars Conference in Nanjing, China. Many thanks to Prof. Lijia Pan for the invitation.</p>
     </div>
-    <img src="/assets/img/news/2026-southeast-university-seminar.png" alt="Poster for Prof. Yao's seminar at Southeast University">
+    <img src="/assets/img/news/2026-cie-semiconductor-conference.jpg" alt="Prof. Yao's name card at the 6th Chinese Institute of Electronics Semiconductor Young Scholars Conference">
   </article>
 
   <article class="home-news-item">
     <div class="home-news-copy">
-      <time datetime="2026-11-13">13-16. Nov. 2026 (conference dates)</time>
-      <p>Prof. Yao gave an invited talk at the Flexible Electronic Devices and Brain-Computer Interfaces forum of the 6th Chinese Institute of Electronics Semiconductor Young Scholars Conference in Nanjing, China. Many thanks to Prof. Lijia Pan for the invitation.</p>
+      <time datetime="2026-11-14">14. Nov. 2026</time>
+      <p>Prof. Yao gave a seminar talk at the School of Biological Science and Medical Engineering and the State Key Laboratory of Digital Medical Engineering, Southeast University. Many thanks to Prof. Hong Liu for the invitation.</p>
     </div>
-    <img src="/assets/img/news/2026-cie-semiconductor-conference.jpg" alt="Prof. Yao's name card at the 6th Chinese Institute of Electronics Semiconductor Young Scholars Conference">
+    <img src="/assets/img/news/2026-southeast-university-seminar.png" alt="Poster for Prof. Yao's seminar at Southeast University">
   </article>
 
   <article class="home-news-item">

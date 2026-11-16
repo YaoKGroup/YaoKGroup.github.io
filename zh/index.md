@@ -13,18 +13,18 @@ en_url: /
 
   <article class="home-news-item">
     <div class="home-news-copy">
-      <time datetime="2026-11-14">2026年11月14日</time>
-      <p>姚教授受邀在东南大学生物科学与医学工程学院、数字医学工程全国重点实验室作学术报告。感谢刘宏教授的邀请。</p>
+      <time datetime="2026-11-15">2026年11月15日</time>
+      <p>姚教授受邀在南京举行的第6届中国电子学会半导体青年学术会议“柔性电子器件与脑机接口专题论坛”作邀请报告。感谢潘力佳教授的邀请。</p>
     </div>
-    <img src="/assets/img/news/2026-southeast-university-seminar.png" alt="姚教授在东南大学作学术报告的海报">
+    <img src="/assets/img/news/2026-cie-semiconductor-conference.jpg" alt="第6届中国电子学会半导体青年学术会议姚教授席卡">
   </article>
 
   <article class="home-news-item">
     <div class="home-news-copy">
-      <time datetime="2026-11-13">2026年11月13-16日（会议日期）</time>
-      <p>姚教授受邀在南京举行的第6届中国电子学会半导体青年学术会议“柔性电子器件与脑机接口专题论坛”作邀请报告。感谢潘力佳教授的邀请。</p>
+      <time datetime="2026-11-14">2026年11月14日</time>
+      <p>姚教授受邀在东南大学生物科学与医学工程学院、数字医学工程全国重点实验室作学术报告。感谢刘宏教授的邀请。</p>
     </div>
-    <img src="/assets/img/news/2026-cie-semiconductor-conference.jpg" alt="第6届中国电子学会半导体青年学术会议姚教授席卡">
+    <img src="/assets/img/news/2026-southeast-university-seminar.png" alt="姚教授在东南大学作学术报告的海报">
   </article>
 
   <article class="home-news-item">
