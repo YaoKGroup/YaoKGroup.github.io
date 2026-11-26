@@ -91,13 +91,13 @@ permalink: /members/
 
 <div class="member-grid">
   <div class="member-card">
-    <img class="member-photo" src="{{ '/photos/member/lan.png' | relative_url }}?v=20260629" alt="LAN Yunting">
+    <img class="member-photo" src="{{ '/photos/member/lan.png' | relative_url }}?v=20260629" alt="LAN">
     <div class="member-info">
-      <div class="member-name">LAN Yunting</div>
+      <div class="member-name">LAN Arthys</div>
       <div class="member-line">9. 2026-</div>
       <div class="member-line">M.S., Southern University of Science and Technology</div>
       <div class="member-line">B.Eng., South China Agricultural University</div>
-      <div class="member-line">Email: ylanaj[at]connect.ust.hk</div>
+      <div class="member-line">Email: aeksio.lan[at]connect.ust.hk</div>
     </div>
   </div>
 
