@@ -99,7 +99,7 @@ en_url: /members/
       <div class="member-line">9. 2026-</div>
       <div class="member-line">硕士：南方科技大学</div>
       <div class="member-line">本科：华南农业大学</div>
-      <div class="member-line">邮箱：ylanaj[at]connect.ust.hk</div>
+      <div class="member-line">邮箱：aeksio.lan[at]connect.ust.hk</div>
     </div>
   </div>
 
