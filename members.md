@@ -145,7 +145,7 @@ permalink: /members/
     <div class="member-info">
       <div class="member-name">Denis Kaizer</div>
       <div class="member-line">9. 2026-</div>
-      <div class="member-line">Email:  dkaizer[at]connect.ust.hk</div>
+      <div class="member-line">Email: dkaizer[at]connect.ust.hk</div>
     </div>
   </div>
 
@@ -153,9 +153,9 @@ permalink: /members/
     <img class="member-photo" src="{{ '/photos/member/haoxiang.jpg' | relative_url }}" alt="LIU Haoxiang">
     <div class="member-info">
       <div class="member-name">LIU Haoxiang</div>
-      <div class="member-line">Visiting Student</div>
-      <div class="member-line">University of Science and Technology Beijing</div>
-      <div class="member-line">Email: hxliu.work@gmail.com</div>
+      <div class="member-line">9. 2026-</div>
+      <div class="member-line">Visiting Student (University of Science and Technology Beijing)</div>
+      <div class="member-line">Email: hxliu.work[at]gmail.com</div>
     </div>
   </div>
 
