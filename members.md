@@ -149,4 +149,14 @@ permalink: /members/
     </div>
   </div>
 
+  <div class="member-card">
+    <img class="member-photo" src="{{ '/photos/member/haoxiang.jpg' | relative_url }}" alt="LIU Haoxiang">
+    <div class="member-info">
+      <div class="member-name">LIU Haoxiang</div>
+      <div class="member-line">Visiting Student</div>
+      <div class="member-line">University of Science and Technology Beijing</div>
+      <div class="member-line">Email: hxliu.work@gmail.com</div>
+    </div>
+  </div>
+
 </div>
