@@ -151,4 +151,14 @@ en_url: /members/
     </div>
   </div>
 
+  <div class="member-card">
+    <img class="member-photo" src="{{ '/photos/member/haoxiang.jpg' | relative_url }}" alt="刘昊翔">
+    <div class="member-info">
+      <div class="member-name">刘昊翔</div>
+      <div class="member-line">访问学生</div>
+      <div class="member-line">北京科技大学</div>
+      <div class="member-line">邮箱：hxliu.work@gmail.com</div>
+    </div>
+  </div>
+
 </div>
