@@ -61,9 +61,9 @@ en_url: /members/
 
 <div class="member-grid">
   <div class="member-card">
-    <img class="member-photo" src="{{ '/assets/img/members/chen-gangsheng.jpg' | relative_url }}?v=20260629" alt="CHEN Gangsheng">
+    <img class="member-photo" src="{{ '/assets/img/members/chen-gangsheng.jpg' | relative_url }}?v=20260629" alt="Gangsheng">
     <div class="member-info">
-      <div class="member-name">陈刚胜</div>
+      <div class="member-name">陈刚胜博士</div>
       <div class="member-line">8. 2026-</div>
       <div class="member-line">博士：东南大学</div>
       <div class="member-line">本科：东南大学</div>
@@ -72,7 +72,7 @@ en_url: /members/
   </div>
 
   <div class="member-card">
-    <img class="member-photo" src="{{ '/assets/img/members/ma-changqiu.jpg' | relative_url }}" alt="马长丘博士">
+    <img class="member-photo" src="{{ '/photos/member/changqiu.jpg' | relative_url }}" alt="Changqiu">
     <div class="member-info">
       <div class="member-name">马长丘博士</div>
       <div class="member-line">访问学者</div>
@@ -80,7 +80,7 @@ en_url: /members/
       <div class="member-line">博士：中国科学技术大学</div>
       <div class="member-line">硕士：华东理工大学</div>
       <div class="member-line">本科：中国矿业大学（北京）</div>
-      <div class="member-line">邮箱：mcq[at]mail.ustc.edu.cn</div>
+      <div class="member-line">邮箱：cqm[at]szu.edu.cn</div>
     </div>
   </div>
 
