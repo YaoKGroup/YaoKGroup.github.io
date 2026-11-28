@@ -70,7 +70,7 @@ permalink: /members/
   </div>
 
   <div class="member-card">
-    <img class="member-photo" src="{{ '/assets/img/members/ma-changqiu.jpg' | relative_url }}" alt="Dr. MA Changqiu">
+    <img class="member-photo" src="{{ '/photos/member/changqiu.jpg' | relative_url }}" alt="changqiu">
     <div class="member-info">
       <div class="member-name">Dr. MA Changqiu</div>
       <div class="member-line">Visiting Scholar</div>
@@ -78,7 +78,7 @@ permalink: /members/
       <div class="member-line">Ph.D., University of Science and Technology of China</div>
       <div class="member-line">M.S., East China University of Science and Technology</div>
       <div class="member-line">B.S., China University of Mining and Technology-Beijing</div>
-      <div class="member-line">Email: mcq[at]mail.ustc.edu.cn</div>
+      <div class="member-line">Email: cqm[at]szu.edu.cn</div>
     </div>
   </div>
 
