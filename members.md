@@ -91,7 +91,7 @@ permalink: /members/
 
 <div class="member-grid">
   <div class="member-card">
-    <img class="member-photo" src="{{ '/photos/member/lan.png' | relative_url }}?v=20260629" alt="LAN">
+    <img class="member-photo" src="{{ '/photos/member/lan.jpg' | relative_url }}?v=20260629" alt="LAN">
     <div class="member-info">
       <div class="member-name">LAN Arthys</div>
       <div class="member-line">9. 2026-</div>
@@ -129,7 +129,7 @@ permalink: /members/
       <div class="member-line">Co-supervised</div>
       <div class="member-line">10. 2026-</div>
       <div class="member-line">B.Eng., Amir Kabir University of Technology (Tehran Polytechnic)</div>
-      <div class="member-line">Email: snazari[@]connect.ust.hk</div>
+      <div class="member-line">Email: snazari[at]connect.ust.hk</div>
     </div>
   </div>
 
@@ -150,12 +150,30 @@ permalink: /members/
   </div>
 
   <div class="member-card">
-    <img class="member-photo" src="{{ '/photos/member/haoxiang.jpg' | relative_url }}" alt="LIU Haoxiang">
+    <img class="member-photo" src="{{ '/photos/member/haoxiang.jpg' | relative_url }}" alt="Haoxiang">
     <div class="member-info">
       <div class="member-name">LIU Haoxiang</div>
       <div class="member-line">9. 2026-</div>
       <div class="member-line">Visiting Student (University of Science and Technology Beijing)</div>
       <div class="member-line">Email: hxliu.work[at]gmail.com</div>
+    </div>
+  </div>
+
+  <div class="member-card">
+    <img class="member-photo" src="{{ '/photos/member/win.jpg' | relative_url }}" alt="win">
+    <div class="member-info">
+      <div class="member-name">PANG Wintrick</div>
+      <div class="member-line">10. 2026-</div>
+      <div class="member-line">Email: hliwpang[at]connect.ust.hk</div>
+    </div>
+  </div>
+
+  <div class="member-card">
+    <img class="member-photo" src="{{ '/photos/member/chengyu.jpg' | relative_url }}" alt="chengyu">
+    <div class="member-info">
+      <div class="member-name">WU Chengyu</div>
+      <div class="member-line">10. 2026-</div>
+      <div class="member-line">Email: cwubz[at]connect.ust.hk</div>
     </div>
   </div>
 
