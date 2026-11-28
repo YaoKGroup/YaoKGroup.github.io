@@ -93,7 +93,7 @@ en_url: /members/
 
 <div class="member-grid">
   <div class="member-card">
-    <img class="member-photo" src="{{ '/photos/member/lan.png' | relative_url }}?v=20260629" alt="LAN Yunting">
+    <img class="member-photo" src="{{ '/photos/member/lan.jpg' | relative_url }}?v=20260629" alt="LAN">
     <div class="member-info">
       <div class="member-name">蓝蕴婷</div>
       <div class="member-line">9. 2026-</div>
@@ -131,7 +131,7 @@ en_url: /members/
       <div class="member-line">共同指导</div>
       <div class="member-line">10. 2026-</div>
       <div class="member-line">本科：阿米尔卡比尔理工大学（德黑兰理工大学）</div>
-      <div class="member-line">邮箱：snazari[@]connect.ust.hk</div>
+      <div class="member-line">邮箱：snazari[at]connect.ust.hk</div>
     </div>
   </div>
 
@@ -158,6 +158,24 @@ en_url: /members/
       <div class="member-line">9. 2026-</div>
       <div class="member-line">访问学生(北京科技大学)</div>
       <div class="member-line">邮箱：hxliu.work[at]gmail.com</div>
+    </div>
+  </div>
+
+  <div class="member-card">
+    <img class="member-photo" src="{{ '/photos/member/win.jpg' | relative_url }}" alt="win">
+    <div class="member-info">
+      <div class="member-name">彭谦乐</div>
+      <div class="member-line">10. 2026-</div>
+      <div class="member-line">Email: hliwpang[at]connect.ust.hk</div>
+    </div>
+  </div>
+
+  <div class="member-card">
+    <img class="member-photo" src="{{ '/photos/member/chengyu.jpg' | relative_url }}" alt="chengyu">
+    <div class="member-info">
+      <div class="member-name">吴承宇</div>
+      <div class="member-line">10. 2026-</div>
+      <div class="member-line">Email: cwubz[at]connect.ust.hk</div>
     </div>
   </div>
 
